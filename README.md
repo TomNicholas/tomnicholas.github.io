@@ -4,7 +4,7 @@ This is my personal website, built with Sphinx!
 
 ## Build and preview the docs
 
-**Build the docs**. Use `nox`, which handles all of the environment generation automatically.
+**Build the docs**. Use [`nox`](https://github.com/wntrblm/nox), which handles all of the environment generation automatically.
 To do so, follow these steps:
 
 1. Install `nox`.
@@ -15,7 +15,7 @@ To do so, follow these steps:
 2. Run `tox`
 
    ```shell
-   nox -s docs
+   nox -s start
    ```
 
 this should install a Sphinx environment and build the site, putting the output files in `_build/html`.
