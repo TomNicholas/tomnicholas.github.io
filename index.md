@@ -28,10 +28,10 @@ I also work on several other [open-source projects](https://github.com/TomNichol
 :link: about.md
 About me ℹ️
 :::
-:::{grid-item-card}
+<!-- :::{grid-item-card}
 :link: projects.md
 Projects I've worked on 🔧
-:::
+::: -->
 :::{grid-item-card}
 :link: blog.md
 My blog ✍️
