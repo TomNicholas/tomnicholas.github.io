@@ -35,33 +35,33 @@ exclude_patterns = [
 
 html_theme = "pydata_sphinx_theme"
 
-html_theme_options = {
-    "search_bar_text": "Search this site...",
-    "analytics": {"google_analytics_id": "UA-88310237-1"},
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/choldgraf/",
-            "icon": "fa-brands fa-github",
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/choldgraf",
-            "icon": "fa-brands fa-twitter",
-        },
-        {
-            "name": "Mastodon",
-            "url": "https://hachyderm.io/@choldgraf",
-            "icon": "fa-brands fa-mastodon",
-            "attributes": {"rel": "me"},
-        },
-        {
-            "name": "Blog RSS feed",
-            "url": "https://chrisholdgraf.com/blog/atom.xml",
-            "icon": "fa-solid fa-rss",
-        },
-    ],
-}
+# html_theme_options = {
+#     "search_bar_text": "Search this site...",
+#     "analytics": {"google_analytics_id": "UA-88310237-1"},
+#     "icon_links": [
+#         {
+#             "name": "GitHub",
+#             "url": "https://github.com/TomNicholas/",
+#             "icon": "fa-brands fa-github",
+#         },
+#         {
+#             "name": "Twitter",
+#             "url": "https://twitter.com/choldgraf",
+#             "icon": "fa-brands fa-twitter",
+#         },
+#         {
+#             "name": "Mastodon",
+#             "url": "https://hachyderm.io/@choldgraf",
+#             "icon": "fa-brands fa-mastodon",
+#             "attributes": {"rel": "me"},
+#         },
+#         {
+#             "name": "Blog RSS feed",
+#             "url": "https://chrisholdgraf.com/blog/atom.xml",
+#             "icon": "fa-solid fa-rss",
+#         },
+#     ],
+# }
 
 html_favicon = "_static/profile-color-circle-small.png"
 html_title = "Tom Nicholas"
@@ -106,8 +106,8 @@ for old, new in redirect_folders.items():
 
 # -- ABlog ---------------------------------------------------
 
-blog_baseurl = "https://chrisholdgraf.com"
-blog_title = "Chris Holdgraf"
+blog_baseurl = "https://tom-nicholas.com"
+blog_title = "Tom Nicholas"
 blog_path = "blog"
 blog_post_pattern = "blog/*/*"
 blog_feed_fulltext = True
