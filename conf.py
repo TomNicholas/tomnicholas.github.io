@@ -5,9 +5,9 @@ sys.path.append("scripts")
 sys.path.append(".")
 from social_media import add_social_media_js, SocialPost
 
-project = "Chris Holdgraf"
-copyright = "2022, Chris Holdgraf"
-author = "Chris Holdgraf"
+project = "Tom Nicholas"
+copyright = "2025, Tom Nicholas"
+author = "Tom Nicholas"
 
 extensions = [
     "myst_nb",
@@ -64,7 +64,7 @@ html_theme_options = {
 }
 
 html_favicon = "_static/profile-color-circle-small.png"
-html_title = "Chris Holdgraf"
+html_title = "Tom Nicholas"
 html_static_path = ["_static"]
 html_extra_path = ["feed.xml"]
 html_sidebars = {
@@ -78,7 +78,7 @@ html_sidebars = {
 }
 
 # OpenGraph config
-ogp_site_url = "https://chrisholdgraf.com"
+ogp_site_url = "https://tom-nicholas.com"
 ogp_social_cards = {
     "line_color": "#4078c0",
     "image": "_static/profile-color-circle.png",

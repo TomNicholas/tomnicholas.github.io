@@ -1,24 +1,25 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: f84d70c6-7ee5-4bb9-9056-aa84134a33dd
+  #id: f84d70c6-7ee5-4bb9-9056-aa84134a33dd
   title: "Welcome"
   authors:
-    - name: Chris Holdgraf
-      website: https://chrisholdgraf.com
-      id: chris
-      orcid: 0000-0002-2391-0678
-      github: choldgraf
-      twitter: choldgraf
-      affiliations:
-        - name: 2i2c
-          url: https://2i2c.org
-        - name: Project Jupyter
-          url: https://jupyter.org
+    - name: Tom Nicholas
+      website: https://tom-nicholas.com
+      id: tom
+      orcid: 0000-0002-2176-0530
+      github: TomNicholas
+      # TODO no option for bluesky in myst frontmatter yet
+      #bluesky: choldgraf
+      #affiliations:
+        #- name: 2i2c
+        #  url: https://2i2c.org
+        #- name: Project Jupyter
+        #  url: https://jupyter.org
   # description:
   # keywords: []
-  # authors: [Chris Holdgraf]
-  github: https://github.com/choldgraf/choldgraf.github.io
+  # authors: [Tom Nicholas]
+  github: https://github.com/TomNicholas/tomnicholas.github.io
   # Figma for this thumbnail: https://www.figma.com/design/WZiIvmibgmn6kLH1QoQQLD/Chris-Website?node-id=0-1&p=f&t=QRja0fkrmqtnvnJz-0
   thumbnail: _static/social_banner.png
   plugins:
@@ -80,15 +81,14 @@ site:
   template: book-theme
   options:
     folders: true
-    twitter: choldgraf
-    logo_text: Chris Holdgraf
-    analytics_google: G-G5PMZM6RPE # Measurement ID or Tracking ID
+    logo_text: Tom Nicholas
+    #analytics_google: G-G5PMZM6RPE # Measurement ID or Tracking ID
     favicon: _static/profile-color-circle-small.png
   domains:
-    - choldgraf.github.io
+    - tomnicholas.github.io
   actions:
     - title: RSS
-      url: https://chrisholdgraf.com/rss.xml
+      url: https://tomnicholas.com/rss.xml
   nav:
     - title: About
       url: /about
