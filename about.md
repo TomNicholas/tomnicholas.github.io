@@ -1,61 +1,54 @@
 # About me
 
-I'm the Executive Director of [2i2c: the International Interactive Computing Collaboration](https://2i2c.org), a non-profit dedicated to open source infrastructure for interactive computing in research and education.
+I'm a physicist turned software engineer.
+
+I work on projects that make it easier to analyse and share massive scientific datasets. I strongly feel that progress in most fields of computational science, including crucially Climate Science, are bottlenecked by how uneccessarily hard that is to do right now.
 
 ## What I do
 
 ```{div}
 :class: col-gutter-left
 
-**Open Source and Open Community**
+**Open Source Software and Communities for Science**
 ```
 ```{div}
 :class: col-body-right
 
-I work on projects that make research and education more effective, efficient, inclusive, and transparent. I also believe that it's important for open source technical projects to have healthy and inclusive _communities_ behind them.
+I contribute to a number of open-source software projects that support this aim, often as part of the [Pangeo Community](https://pangeo.io/).
 
-I contribute to a number of open-source projects that support the research and education community. In particular I am a core contributor to many projects in the [PyData ecosystem](https://numfocus.org/sponsored-projects), and in particular the following major projects:
+A few projects I'm particularly proud of or excited about, and my role in them:
 
-- [Project Jupyter](http://jupyter.org/) - an open platform and community for interactive data science.
-- [JupyterHub](https://jupyter.org/hub) - shared infrastructure for interactive computing on shared infrastructure.
-- [the Binder Project](https://mybinder.readthedocs.io/en/latest/about.html) - tools and standards for interactive, reproducible, sharable repositories.
-- [the Executable Books Project](https://executablebooks.org) - open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
+- [Xarray](https://xarray.dev/) - N-D labeled arrays and datasets in Python (core maintainer).
+- [VirtualiZarr](https://github.com/zarr-developers/VirtualiZarr) - Cloud-Optimizes your Scientific Data as Virtual Zarr stores, using Xarray syntax (original author and lead developer).
+- [Cubed](https://cubed-dev.github.io/cubed/) - Scalable array processing with bounded memory (cheerleader, and author of the [Cubed-Xarray integration](https://cubed-dev.github.io/cubed/examples/xarray.html)).
+- [FROST](https://github.com/TomNicholas/FROST) - Federated registry of all scientific datasets (originator - I'm trying to make this a thing).
 
-For an idea of the kinds of projects that I work on, check out my [my GitHub page](https://github.com/choldgraf)
+Check out my [my GitHub page](https://github.com/tomnicholas) for more details.
 ```
 ```{div}
 :class: col-gutter-left
-**Scientific Research and Open Scholarship**
+**Scientific Research Dilettante**
 ```
 ```{div}
 :class: col-body-right
 
-I used to study cognitive and computational neuroscience, using predictive modeling to study the ways in which the human auditory system understands speech.
+I have been involved with research projects in various fields, including:
 
-- A good example of my work is this paper about [💬 representations influencing the perception of noisy speech](https://www.nature.com/articles/ncomms13654).
-- To learn about these methods, see my methods paper about [🧠 encoding and decoding models of speech perception](https://www.frontiersin.org/articles/10.3389/fnsys.2017.00061/full).
+- Nuclear Fusion Plasma Physics
+- Physical Oceanography
+- Ocean-based Carbon Dioxide Removal
+- Hypersonic Aerothermodynamics
+- Superconductivity
 
-I've also been involved with several projects across other fields in academic / scientific research, especially "meta" issues in open source communities and open standards and practices in scientific fields.
+In every field I have felt the same kinds of pain around doing computational work, which motivates my software projects.
 
 For a list of publications and scholarly artifacts in which I've been involved,
-check out [my ORCID page](https://orcid.org/0000-0002-2391-0678) or [my Google Scholar page](https://scholar.google.com/citations?user=fJmcIEIAAAAJ&hl=en&oi=ao).
+check out [my ORCID page](https://orcid.org/0000-0002-2176-0530) or [my Google Scholar page](https://scholar.google.com/citations?user=sRqgW3gAAAAJ&hl=en).
 ```
-
-## CV
-
-Here's some more "official" CV-style info, if that's what you're looking for.
-
-### Education
-
-* B.S. in Neuroscience, Tulane University, 2009
-* M.S. in Neuroscience, Tulane University, 2010
-* Ph.D. in Neuroscience, University of California at Berkeley, 2017
-
-If you want a hard-copy CV, you can find a {download}`reasonably up-to-date CV here </_static/cv.pdf>`.
 
 ## About this website
 
-This is an experiment in hosting my personal website and blog via Sphinx extensions instead of using Jekyll. It uses the [pydata sphinx theme](https://pydata-sphinx-theme.readthedocs.io/) along with [ablog](https://ablog.readthedocs.io/) for blogging, and the [myst-parser](https://myst-parser.readthedocs.io/en/latest/) and [myst-nb](https://myst-nb.readthedocs.io/) packages for writing posts in Markdown and Jupyter Notebooks.
+This website is my fork of [Chris Holdgraf](https://chrisholdgraf.com/)'s experiment in hosting a personal website and blog via Sphinx extensions instead of using Jekyll. All the credit for how nice the website looks goes to him.
 
 (about:timeline)=
 ## A rough timeline
