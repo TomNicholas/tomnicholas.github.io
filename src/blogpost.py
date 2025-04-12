@@ -41,7 +41,7 @@ for ifile in root.rglob("blog/**/*.md"):
     N_WORDS = 50
     words = " ".join(content.split(" ")[:N_WORDS])
     if not "author" in meta or not meta["author"]:
-        meta["author"] = "Chris Holdgraf"
+        meta["author"] = "Tom Nicholas"
     meta["content"] = meta.get("description", words)
     posts.append(meta)
 posts = pd.DataFrame(posts)
@@ -50,28 +50,28 @@ posts = posts.dropna(subset=["date"])
 posts = posts.sort_values("date", ascending=False)
 
 # Generate an RSS feed
-fg = FeedGenerator()
-fg.id("http://chrisholdgraf.com")
-fg.title("Chris Holdgraf's blog")
-fg.author({"name": "Chris Holdgraf", "email": "choldgraf@gmail.com"})
-fg.link(href="http://chrisholdgraf.com", rel="alternate")
-fg.logo("http://chrisholdgraf.com/_static/profile.jpg")
-fg.subtitle("Chris' personal blog!")
-fg.link(href="http://chrisholdgraf.com/rss.xml", rel="self")
-fg.language("en")
+# fg = FeedGenerator()
+# fg.id("http://chrisholdgraf.com")
+# fg.title("Chris Holdgraf's blog")
+# fg.author({"name": "Chris Holdgraf", "email": "choldgraf@gmail.com"})
+# fg.link(href="http://chrisholdgraf.com", rel="alternate")
+# fg.logo("http://chrisholdgraf.com/_static/profile.jpg")
+# fg.subtitle("Chris' personal blog!")
+# fg.link(href="http://chrisholdgraf.com/rss.xml", rel="self")
+# fg.language("en")
 
-# Add all my posts to it
-for ix, irow in posts.iterrows():
-    fe = fg.add_entry()
-    fe.id(f"http://chrisholdgraf.com/{irow['path']}")
-    fe.published(irow["date"])
-    fe.title(irow["title"])
-    fe.link(href=f"http://chrisholdgraf.com/{irow['path']}")
-    fe.content(content=irow["content"])
+# # Add all my posts to it
+# for ix, irow in posts.iterrows():
+#     fe = fg.add_entry()
+#     fe.id(f"http://chrisholdgraf.com/{irow['path']}")
+#     fe.published(irow["date"])
+#     fe.title(irow["title"])
+#     fe.link(href=f"http://chrisholdgraf.com/{irow['path']}")
+#     fe.content(content=irow["content"])
 
-# Write an RSS feed with latest posts
-fg.atom_file(root / "atom.xml", pretty=True)
-fg.rss_file(root / "rss.xml", pretty=True)
+# # Write an RSS feed with latest posts
+# fg.atom_file(root / "atom.xml", pretty=True)
+# fg.rss_file(root / "rss.xml", pretty=True)
 
 plugin = {
     "name": "Blog Post list",
