@@ -1,6 +1,8 @@
-# Chris' personal website
+# Tom' personal website
 
 This is my personal website, built with Sphinx!
+
+It is forked (and detached) from [Chris Holdgraf's personal website](https://chrisholdgraf.com/) ([repo here](https://github.com/choldgraf/choldgraf.github.io)). Thanks Chris!
 
 ## Build and preview the docs
 
