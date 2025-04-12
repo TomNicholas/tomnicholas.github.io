@@ -2,11 +2,11 @@
 site:
   hide_toc: true
 ---
-# Hi, I'm Chris Holdgraf 👋
+# Hi, I'm Tom Nicholas 👋
 
 :::{figure} ./images/profile-color-circle.png
 :class: col-gutter-left
-:alt: Profile picture of Dr Chris Holdgraf
+:alt: Profile picture of Dr Tom Nicholas
 :align: center
 :width: 90%
 :::
@@ -15,13 +15,13 @@ site:
 :class: col-body-right
 | A bit about me... |
 |---|
-|💼 Executive Director @ [2i2c](https://2i2c.org/) |
-|☁️ Former Cloud DataHub team @ [Berkeley CDSS](https://cdss.berkeley.edu/) |
-|🌕 Distinguished Contributor @ [The Jupyter Project](https://jupyter.org) |
-|🧠 PhD graduate in neuroscience @ [UC Berkeley](https://berkeley.edu) |
+|💼 Engineer @ [Earthmover](https://2i2c.org/) |
+|🌎 Active member of the [Pangeo Community](https://pangeo.io/) |
+|🌕 Core developer of [Xarray](https://xarray.dev) |
+|🧪 PhD in fusion plasma physics from [Uni. York](https://fusion-cdt.ac.uk/) & [CCFE](https://ccfe.ukaea.uk/) |
 :::
 
-I also work extensively with [Project Jupyter](https://jupyter.org), particularly [the Binder Project](https://mybinder.org) and [Jupyter Book](https://jupyterbook.org).
+I also work on several other [open-source projects](https://github.com/TomNicholas) for science.
 
 ::::{grid}
 :::{grid-item-card}
