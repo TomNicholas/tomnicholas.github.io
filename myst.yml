@@ -64,18 +64,6 @@ project:
       - title: "2019"
         children:
         - pattern: "blog/2019/**{.ipynb,.md}"
-      - title: "2018"
-        children:
-        - pattern: "blog/2018/**{.ipynb,.md}"
-      - title: "2017"
-        children:
-        - pattern: "blog/2017/**{.ipynb,.md}"
-      - title: "2016"
-        children:
-        - pattern: "blog/2016/**{.ipynb,.md}"
-      - title: "2015"
-        children:
-        - pattern: "blog/2015/**{.ipynb,.md}"
     
 site:
   template: book-theme
