@@ -1,4 +1,4 @@
-# Tom' personal website
+# Tom's personal website
 
 This is my personal website, built with Sphinx!
 
