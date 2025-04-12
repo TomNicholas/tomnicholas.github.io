@@ -48,20 +48,20 @@ check out [my ORCID page](https://orcid.org/0000-0002-2176-0530) or [my Google S
 
 ## About this website
 
-This website is my fork of [Chris Holdgraf](https://chrisholdgraf.com/)'s experiment in hosting a personal website and blog via Sphinx extensions instead of using Jekyll. All the credit for how nice the website looks goes to him.
+This website is my fork of [Chris Holdgraf](https://chrisholdgraf.com/)'s experiment in hosting a personal website and blog via Sphinx extensions instead of using Jekyll. All credit for the website should go to him.
 
 (about:timeline)=
 ## A rough timeline
 
-Below is a (somewhat experimental) rough timeline of what I've been up to over the past several years.
+Below is a rough timeline of my working life so far.
 
 :::::::{div}
 :class: col-body-inset-left
 
 :::::{card}
-2020: **Co-Founded [2i2c](https://2i2c.org)**
+**2025- : Engineer at Earthmover**
 ^^^
-2i2c is a non-profit organization that makes interactive computing environments more accessible to the research and education community. It supports the delpoyment of open infrastructure for this community, and also supports the open source communities underneath this infrastructure.
+...
 :::::
 
 :::::::
@@ -70,13 +70,9 @@ Below is a (somewhat experimental) rough timeline of what I've been up to over t
 :class: col-body-inset-right
 
 :::::{card}
-**2017** Joined the Jupyter Project
+**2023-2025: Staff Scientist at [C]Worthy**
 ^^^
-After finishing graduate school I began a Post-Doc with [Fernando Perez](http://fperez.org/), focusing my work around applying and developing the Jupyter ecosystem to support workflows in research and education. Here are a few of the main things I did during this time:
-- Co-lead the [Binder Project](https://mybinder.org) for interactive, reproducible, sharable computational environments.
-- Co-lead the [JupyterHub team](https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html), which builds tools for deploying interactive computing environments on shared infrastructure.
-- Served as "community architect" for the [Berkeley Data Science Education Program](https://data.berkeley.edu/dsep), which runs JupyterHubs on campus for education.
-- Co-launched the [Jupyter Book project](https://jupyterbook.org), a tool for building books from collections of notebooks and markdown files.
+...
 :::::
 
 :::::::
@@ -85,9 +81,9 @@ After finishing graduate school I began a Post-Doc with [Fernando Perez](http://
 :class: col-body-inset-left
 
 :::::{card}
-**2011** Graduate school at Berkeley
+**2021-2023: Oceanographer at Columbia University**
 ^^^
-My scientific training began as a neuroscientist, where I studied the ways that humans process speech and sound. I used computational models and machine learning to tie patterns of brain activity to spectral features of sound. In particular I focused on **speech in noise** to understand how our brain fills in missing details in auditory information.
+...
 :::::
 
 :::::::
@@ -96,9 +92,31 @@ My scientific training began as a neuroscientist, where I studied the ways that 
 :class: col-body-inset-right
 
 :::::{card}
-**2009** Graduated from Tulane
+**2017: First contributions to Xarray**
 ^^^
-Graduated from Tulane University with a B.S. and an M.S. in Neuroscience.
+...
+:::::
+
+:::::::
+
+:::::::{div}
+:class: col-body-inset-left
+
+:::::{card}
+**2016-2021: PhD at Culham Centre for Fusion Energy**
+^^^
+My scientific training began ...
+:::::
+
+:::::::
+
+:::::::{div}
+:class: col-body-inset-right
+
+:::::{card}
+**2012-2016 Studied Physics at Oxford**
+^^^
+Graduated from Oxford University with an MPhys in Physics, specializing in Theoretical and Condensed Matter Physics.
 :::::
 
 :::::::
