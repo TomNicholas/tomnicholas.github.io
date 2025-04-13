@@ -43,9 +43,9 @@ project:
     # - file: talks.md
     - file: blog.md
       children:
-      # - title: "2025"
-      #   children:
-      #   - pattern: "blog/2025/**{.ipynb,.md}"
+      - title: "2025"
+        children:
+        - pattern: "blog/2025/**{.ipynb,.md}"
       - title: "2024"
         children:
         - pattern: "blog/2024/**{.ipynb,.md}"
