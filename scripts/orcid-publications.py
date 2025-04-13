@@ -21,7 +21,7 @@ from pathlib import Path
 from rich import progress
 
 # My ORCID
-orcid_id = "0000-0002-2391-0678"
+orcid_id = "0000-0002-2176-0530"
 ORCID_RECORD_API = "https://pub.orcid.org/v3.0/"
 
 # Download all of my ORCID records
