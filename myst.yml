@@ -74,9 +74,9 @@ site:
     favicon: _static/profile-color-circle-small.png
   domains:
     - tomnicholas.github.io
-  actions:
-    - title: RSS
-      url: https://tomnicholas.com/rss.xml
+  # actions:
+  #   - title: RSS
+  #     url: https://tomnicholas.com/rss.xml
   nav:
     - title: About
       url: /about
