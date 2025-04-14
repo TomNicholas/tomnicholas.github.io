@@ -68,7 +68,9 @@ Below is a rough timeline of my working life so far.
 :::::{card}
 **2025- : Engineer at Earthmover**
 ^^^
-I joined [Earthmover](https://earthmover.io/) to be able to work full-time on improving tools for science.
+I joined [Earthmover](https://earthmover.io/) to be able to work full-time on improving tools for science. The open-sourcing of [Icechunk](https://icechunk.io/) was a major catalyst for this move. 
+
+I'm hoping we can build something like my [vision](./blog/2025/science-needs-a-social-network.md) of a social network for sharing scientific data.
 :::::
 
 :::::::
@@ -81,7 +83,7 @@ I joined [Earthmover](https://earthmover.io/) to be able to work full-time on im
 ^^^
 After Ryan wound his lab down, I looked for places to apply my open-source skills in the climate space, and found [[C]Worthy](https://www.cworthy.org/). Their non-profit "Focused Research Organisation" status is a very cool model.
 
-I helped build some [cool stuff](https://carbonplan.org/research/oae-efficiency), but I was generally frustrated by feeling bogged down by the lack of powerful tools for working with scientific data in an operational context.
+I helped build some [cool stuff](https://carbonplan.org/research/oae-efficiency), but I felt generally frustrated by the lack of powerful tools for working with scientific data in an operational context.
 :::::
 
 :::::::
@@ -92,7 +94,7 @@ I helped build some [cool stuff](https://carbonplan.org/research/oae-efficiency)
 :::::{card}
 **2021-2023: Oceanographer at Columbia University**
 ^^^
-After meeting Ryan Abernathey through the Xarray core development team, he invited me to come work with him at Columbia.
+After meeting Ryan Abernathey through the Xarray core development team, he invited me to come work with him at Columbia. This seemed like an ideal way to continue doing open-source development whilst pivoting towards more climate-ish stuff.
 
 This meant a move to New York, and a pivot to physical oceanography research. Luckily it turned out ocean turbulence is surprisingly similar to plasma turbulence!
 :::::
@@ -103,11 +105,12 @@ This meant a move to New York, and a pivot to physical oceanography research. Lu
 :class: col-body-inset-right
 
 :::::{card}
-**2018: First contributions to Xarray**
+**2019: Became worried about Climate Change**
 ^^^
-I first heard about Xarray during my PhD, and immediately started [using it](https://github.com/boutproject/xBOUT) to analyse my plasma physics simulation data.
+There was a clear moment when I realized exactly how big and urgent the climate crisis is. 
+Many people describe such a "penny drop" moment, and for me it came while watching lectures organized by the [Oxford Climate Society](https://oxfordclimatesociety.com/).
 
-To get this to work I began making upstream contributions. One of my [first big contributions](https://github.com/pydata/xarray/pull/2553) was generalizing `xarray.open_mfdataset` to work on N-dimensional grids of files, which still sees a lot of use via the `combine='by_coords'/'nested'` options.
+Through this excellent student society I had the privilege of meeting and interrogating many climate experts of all kinds, which only cemented my decision to somehow work on climate issues.
 :::::
 
 :::::::
@@ -116,17 +119,30 @@ To get this to work I began making upstream contributions. One of my [first big 
 :class: col-body-inset-left
 
 :::::{card}
-**2016-2021: PhD at Culham Centre for Fusion Energy**
+**2018: First contributions to Xarray**
 ^^^
-I did big simulations of turbulent plasmas inside magnetically-confinement fusion experiments (particularly MAST-U). I was a student of the University of York as part of the excellent [Fusion CDT](https://fusion-cdt.ac.uk/), but worked at [Culham Centre for Fusion Energy](https://ccfe.ukaea.uk/). The simulations generated a lot of netCDF files on HPC... 
+I first heard about [Xarray](https://xarray.dev/) during my PhD, and immediately started [using it](https://github.com/boutproject/xBOUT) to analyse my plasma physics simulation data.
 
-My proudest work during my PhD wasn't physics but economics: a paper about the [(lack of) future market for fusion power](https://arxiv.org/abs/2101.05727).
+To get this to work I began making upstream contributions. One of my [first big contributions](https://github.com/pydata/xarray/pull/2553) was generalizing `xarray.open_mfdataset` to work on N-dimensional grids of files, which still sees a lot of use via the `combine='by_coords'/'nested'` options.
 :::::
 
 :::::::
 
 :::::::{div}
 :class: col-body-inset-right
+
+:::::{card}
+**2016-2021: PhD at Culham Centre for Fusion Energy**
+^^^
+I did big simulations of turbulent plasmas inside magnetically-confinement fusion experiments (particularly MAST-U). I was a student of the University of York as part of the excellent [Fusion CDT](https://fusion-cdt.ac.uk/), but worked at [Culham Centre for Fusion Energy](https://ccfe.ukaea.uk/). The simulations generated a lot of netCDF files on HPC... 
+
+My proudest work during my PhD wasn't physics, but economics: a paper about the [(lack of) future market for fusion power](https://arxiv.org/abs/2101.05727).
+:::::
+
+:::::::
+
+:::::::{div}
+:class: col-body-inset-left
 
 :::::{card}
 **2012-2016 Studied Physics at Oxford**
