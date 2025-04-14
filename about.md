@@ -68,7 +68,7 @@ Below is a rough timeline of my working life so far.
 :::::{card}
 **2025- : Engineer at Earthmover**
 ^^^
-...
+I joined [Earthmover](https://earthmover.io/) to be able to work full-time on improving tools for science.
 :::::
 
 :::::::
@@ -79,7 +79,9 @@ Below is a rough timeline of my working life so far.
 :::::{card}
 **2023-2025: Staff Scientist at [C]Worthy**
 ^^^
-...
+After Ryan wound his lab down, I looked for places to apply my open-source skills in the climate space, and found [[C]Worthy](https://www.cworthy.org/). Their non-profit "Focused Research Organisation" status is a very cool model.
+
+I helped build some [cool stuff](https://carbonplan.org/research/oae-efficiency), but I was generally frustrated by feeling bogged down by the lack of powerful tools for working with scientific data in an operational context.
 :::::
 
 :::::::
@@ -90,7 +92,9 @@ Below is a rough timeline of my working life so far.
 :::::{card}
 **2021-2023: Oceanographer at Columbia University**
 ^^^
-...
+After meeting Ryan Abernathey through the Xarray core development team, he invited me to come work with him at Columbia.
+
+This meant a move to New York, and a pivot to physical oceanography research. Luckily it turned out ocean turbulence is surprisingly similar to plasma turbulence!
 :::::
 
 :::::::
