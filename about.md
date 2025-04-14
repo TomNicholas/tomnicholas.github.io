@@ -99,9 +99,11 @@ Below is a rough timeline of my working life so far.
 :class: col-body-inset-right
 
 :::::{card}
-**2017: First contributions to Xarray**
+**2018: First contributions to Xarray**
 ^^^
-...
+I first heard about Xarray during my PhD, and immediately started [using it](https://github.com/boutproject/xBOUT) to analyse my plasma physics simulation data.
+
+To get this to work I began making upstream contributions. One of my [first big contributions](https://github.com/pydata/xarray/pull/2553) was generalizing `xarray.open_mfdataset` to work on N-dimensional grids of files, which still sees a lot of use via the `combine='by_coords'/'nested'` options.
 :::::
 
 :::::::
