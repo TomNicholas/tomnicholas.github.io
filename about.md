@@ -68,7 +68,9 @@ Below is a rough timeline of my working life so far.
 :::::{card}
 **2025- : Engineer at Earthmover**
 ^^^
-I joined [Earthmover](https://earthmover.io/) to be able to work full-time on improving tools for science.
+I joined [Earthmover](https://earthmover.io/) to be able to work full-time on improving tools for science. The open-sourcing of [Icechunk](https://icechunk.io/) was a major catalyst for this move. 
+
+I'm hoping we can build something like my [vision](./blog/2025/science-needs-a-social-network.md) of a social network for sharing scientific data.
 :::::
 
 :::::::
@@ -81,7 +83,7 @@ I joined [Earthmover](https://earthmover.io/) to be able to work full-time on im
 ^^^
 After Ryan wound his lab down, I looked for places to apply my open-source skills in the climate space, and found [[C]Worthy](https://www.cworthy.org/). Their non-profit "Focused Research Organisation" status is a very cool model.
 
-I helped build some [cool stuff](https://carbonplan.org/research/oae-efficiency), but I was generally frustrated by feeling bogged down by the lack of powerful tools for working with scientific data in an operational context.
+I helped build some [cool stuff](https://carbonplan.org/research/oae-efficiency), but I felt generally frustrated by the lack of powerful tools for working with scientific data in an operational context.
 :::::
 
 :::::::
@@ -106,7 +108,7 @@ This meant a move to New York, and a pivot to physical oceanography research. Lu
 **2019: Became worried about Climate Change**
 ^^^
 There was a clear moment when I realized exactly how big and urgent the climate crisis is. 
-Many people describe such a "penny drop" moment, and for it came while watching lectures organized by the [Oxford Climate Society](https://oxfordclimatesociety.com/).
+Many people describe such a "penny drop" moment, and for me it came while watching lectures organized by the [Oxford Climate Society](https://oxfordclimatesociety.com/).
 
 Through this excellent student society I had the privilege of meeting and interrogating many climate experts of all kinds, which only cemented my decision to somehow work on climate issues.
 :::::
@@ -119,7 +121,7 @@ Through this excellent student society I had the privilege of meeting and interr
 :::::{card}
 **2018: First contributions to Xarray**
 ^^^
-I first heard about Xarray during my PhD, and immediately started [using it](https://github.com/boutproject/xBOUT) to analyse my plasma physics simulation data.
+I first heard about [Xarray](https://xarray.dev/) during my PhD, and immediately started [using it](https://github.com/boutproject/xBOUT) to analyse my plasma physics simulation data.
 
 To get this to work I began making upstream contributions. One of my [first big contributions](https://github.com/pydata/xarray/pull/2553) was generalizing `xarray.open_mfdataset` to work on N-dimensional grids of files, which still sees a lot of use via the `combine='by_coords'/'nested'` options.
 :::::
@@ -134,7 +136,7 @@ To get this to work I began making upstream contributions. One of my [first big 
 ^^^
 I did big simulations of turbulent plasmas inside magnetically-confinement fusion experiments (particularly MAST-U). I was a student of the University of York as part of the excellent [Fusion CDT](https://fusion-cdt.ac.uk/), but worked at [Culham Centre for Fusion Energy](https://ccfe.ukaea.uk/). The simulations generated a lot of netCDF files on HPC... 
 
-My proudest work during my PhD wasn't physics but economics: a paper about the [(lack of) future market for fusion power](https://arxiv.org/abs/2101.05727).
+My proudest work during my PhD wasn't physics, but economics: a paper about the [(lack of) future market for fusion power](https://arxiv.org/abs/2101.05727).
 :::::
 
 :::::::
