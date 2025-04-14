@@ -52,9 +52,9 @@ project:
       - title: "2023"
         children:
         - pattern: "blog/2023/**{.ipynb,.md}"
-      # - title: "2022"
-      #   children:
-      #   - pattern: "blog/2022/**{.ipynb,.md}"
+      - title: "2022"
+        children:
+        - pattern: "blog/2022/**{.ipynb,.md}"
       # - title: "2021"
       #   children:
       #   - pattern: "blog/2021/**{.ipynb,.md}"
