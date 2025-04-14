@@ -2,7 +2,7 @@
 
 I'm a physicist turned software engineer.
 
-I work on projects that make it easier to analyse and share massive scientific datasets. I strongly feel that progress in most fields of computational science, including crucially Climate Science, are bottlenecked by how uneccessarily hard that is to do right now.
+I work on projects that make it easier to analyse and share massive scientific datasets. I strongly feel that progress in most fields of computational science is bottlenecked by how uneccessarily hard that is right now. There are [crucial missing pieces](./blog/2025/science-needs-a-social-network.md) of global scientific infrastructure.
 
 ## What I do
 
