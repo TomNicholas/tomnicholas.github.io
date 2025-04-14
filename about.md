@@ -34,15 +34,20 @@ Check out my [my GitHub page](https://github.com/tomnicholas) for more details.
 ```{div}
 :class: col-body-right
 
-I have been involved with research projects in various fields, including:
+I have at some point somehow been involved in research on or written peer-reviewed pieces on a wide range of topics, including:
 
 - Nuclear Fusion Plasma Physics
+- Economics of Fusion Reactors
 - Physical Oceanography
 - Ocean-based Carbon Dioxide Removal
-- Hypersonic Aerothermodynamics
+- Climate Science
 - Superconductivity
+- Hypersonic Aerothermodynamics (Spacecraft Re-entry)
+- Seismology
 
-In every field I have felt the same kinds of pain around doing computational work, which motivates my software projects.
+I also regularly interact with researchers in all sort of fields of science, from biology to social science to machine learning.
+
+In every field I see the same kinds of pain around doing computational work, which motivates my software projects.
 
 For a list of publications and scholarly artifacts in which I've been involved,
 check out [my ORCID page](https://orcid.org/0000-0002-2176-0530) or [my Google Scholar page](https://scholar.google.com/citations?user=sRqgW3gAAAAJ&hl=en).
