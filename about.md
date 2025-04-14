@@ -4,14 +4,14 @@ I'm a physicist turned open-source software engineer. I work on projects that ma
 
 I strongly feel that progress in most fields of computational science is bottlenecked by how uneccessarily hard that is right now. There are [crucial missing pieces](./blog/2025/science-needs-a-social-network.md) of global scientific infrastructure.
 
-Climate science, meteorology, and all downstream impact analyses are bottlenecked fields, and through helping unblock them I hope my work contributes in some small way to addressing the global climate crisis.
+Climate science, meteorology, and all downstream impact analyses are similarly hamstrung, and I hope my work contributes in some small way to addressing the global climate crisis by helping enable them.
 
 ## What I do
 
 ```{div}
 :class: col-gutter-left
 
-**Open Source Software and Communities for Science**
+**Open Source Software and Infrastructure for Science**
 ```
 ```{div}
 :class: col-body-right
