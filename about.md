@@ -92,7 +92,7 @@ I helped build some [cool stuff](https://carbonplan.org/research/oae-efficiency)
 :::::{card}
 **2021-2023: Oceanographer at Columbia University**
 ^^^
-After meeting Ryan Abernathey through the Xarray core development team, he invited me to come work with him at Columbia.
+After meeting Ryan Abernathey through the Xarray core development team, he invited me to come work with him at Columbia. This seemed like an ideal way to continue doing open-source development whilst pivoting towards more climate-ish stuff.
 
 This meant a move to New York, and a pivot to physical oceanography research. Luckily it turned out ocean turbulence is surprisingly similar to plasma turbulence!
 :::::
@@ -101,6 +101,20 @@ This meant a move to New York, and a pivot to physical oceanography research. Lu
 
 :::::::{div}
 :class: col-body-inset-right
+
+:::::{card}
+**2019: Became worried about Climate Change**
+^^^
+There was a clear moment when I realized exactly how big and urgent the climate crisis is. 
+Many people describe such a "penny drop" moment, and for it came while watching lectures organized by the [Oxford Climate Society](https://oxfordclimatesociety.com/).
+
+Through this excellent student society I had the privilege of meeting and interrogating many climate experts of all kinds, which only cemented my decision to somehow work on climate issues.
+:::::
+
+:::::::
+
+:::::::{div}
+:class: col-body-inset-left
 
 :::::{card}
 **2018: First contributions to Xarray**
@@ -113,7 +127,7 @@ To get this to work I began making upstream contributions. One of my [first big 
 :::::::
 
 :::::::{div}
-:class: col-body-inset-left
+:class: col-body-inset-right
 
 :::::{card}
 **2016-2021: PhD at Culham Centre for Fusion Energy**
@@ -126,7 +140,7 @@ My proudest work during my PhD wasn't physics but economics: a paper about the [
 :::::::
 
 :::::::{div}
-:class: col-body-inset-right
+:class: col-body-inset-left
 
 :::::{card}
 **2012-2016 Studied Physics at Oxford**
