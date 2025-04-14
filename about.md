@@ -107,7 +107,9 @@ Below is a rough timeline of my working life so far.
 :::::{card}
 **2016-2021: PhD at Culham Centre for Fusion Energy**
 ^^^
-My scientific training began ...
+I did big simulations of turbulent plasmas inside magnetically-confinement fusion experiments (particularly MAST-U). I was a student of the University of York as part of the excellent [Fusion CDT](https://fusion-cdt.ac.uk/), but worked at [Culham Centre for Fusion Energy](https://ccfe.ukaea.uk/). The simulations generated a lot of netCDF files on HPC... 
+
+My proudest work during my PhD wasn't physics but economics: a paper about the [(lack of) future market for fusion power](https://arxiv.org/abs/2101.05727).
 :::::
 
 :::::::
@@ -118,7 +120,7 @@ My scientific training began ...
 :::::{card}
 **2012-2016 Studied Physics at Oxford**
 ^^^
-Graduated from Oxford University with an MPhys in Physics, specializing in Theoretical and Condensed Matter Physics.
+Graduated from Oxford University with an MPhys in Physics, specializing in Theoretical and Condensed Matter Physics. Did my Master's thesis on modelling and data analysis of certain types of novel superconducting materials.
 :::::
 
 :::::::
