@@ -34,7 +34,7 @@ for ifile in root.rglob("blog/**/*.md"):
             if ii.strip().startswith("#"):
                 meta["title"] = ii.replace("#", "").strip()
                 break
-    
+
     # Summarize content
     skip_lines = ["#", "--", "%", "++"]
     content = "\n".join(ii for ii in content.splitlines() if not any(ii.startswith(char) for char in skip_lines))
@@ -44,6 +44,7 @@ for ifile in root.rglob("blog/**/*.md"):
         meta["author"] = "Tom Nicholas"
     meta["content"] = meta.get("description", words)
     posts.append(meta)
+
 posts = pd.DataFrame(posts)
 posts["date"] = pd.to_datetime(posts["date"]).dt.tz_localize("US/Eastern")
 posts = posts.dropna(subset=["date"])
@@ -110,7 +111,8 @@ for ix, irow in posts.iterrows():
               "type": "footer",
               "children": [
                 u.strong([u.text("Date: ")]), u.text(f"{irow['date']:%B %d, %Y} | "),
-                u.strong([u.text("Author: ")]), u.text(f"{irow['author']}"),
+                u.strong([u.text("Author: ")]), u.text(f"{irow['author']} | "),
+                u.strong([u.text("Tags: ")]), u.text(f"{", ".join(irow['tags'])}"),
               ]
             },
           ]
