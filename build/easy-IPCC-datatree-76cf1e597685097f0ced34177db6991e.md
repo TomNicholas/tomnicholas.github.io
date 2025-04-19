@@ -1,6 +1,8 @@
 ---
 date: "2022-08-29"
 title: "Easy IPCC part 1: Multi-Model Datatree"
+description: |
+  Analysing CMPI6 data as a motivation for xarray DataTree.
 tags:
 - code
 - python

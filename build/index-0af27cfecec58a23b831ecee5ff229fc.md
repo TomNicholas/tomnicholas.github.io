@@ -42,5 +42,5 @@ My blog ✍️
 ## Recent blog posts
 
 :::{postlist}
-:number: 10
+:number: 5
 :::

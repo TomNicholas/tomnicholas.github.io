@@ -1,6 +1,8 @@
 ---
 date: "2020-07-14"
 title: "The faulty science, doomism, and flawed conclusions of Deep Adaptation"
+description: |
+  Calling out pseudoscience claiming that societal collapse due to climate change is inevitable. 
 tags:
 - climate-science
 - misinformation
