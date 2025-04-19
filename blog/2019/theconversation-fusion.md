@@ -1,6 +1,8 @@
 ---
 date: "2019-09-30"
 title: "Nuclear Fusion: too late for the climate"
+description: |
+  Don't let politicians use funding for nuclear fusion research as greenwashing.
 tags:
 - fusion
 - energy

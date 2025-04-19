@@ -1,6 +1,8 @@
 ---
 date: "2023-06-01"
 title: "Cubed: Bounded-memory serverless array processing in xarray"
+description: |
+  Cubed was designed to address the main problems with Dask, so I integrated it with Xarray. 
 tags:
 - code
 - python

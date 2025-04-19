@@ -1,6 +1,8 @@
 ---
 date: "2024-12-19"
 title: "Xarray x NASA: xarray.DataTree for hierarchical data structures"
+description: |
+  How xarray's new DataTree feature came about, and thoughts on how public agencies can support the open-source scientific software that they depend on.
 tags:
 - code
 - python

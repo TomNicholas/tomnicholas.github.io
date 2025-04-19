@@ -1,6 +1,8 @@
 ---
 date: "2020-04-22"
 title: "Oxford University Divestment Explained"
+description: |
+  Thought's on Oxford University's fossil fuel divestment motion.
 tags:
 - climate
 - oxford

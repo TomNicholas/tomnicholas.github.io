@@ -1,6 +1,8 @@
 ---
 date: "2025-01-18"
 title: "Science needs a social network for sharing big data"
+description: |
+  Imagine being able to visit one website, search for any scientific dataset from any institution in the world, preview it, then stream the data out at high speed, in the format you prefer. We have the technology - here's what we should build.
 tags:
 - open-science
 - frost

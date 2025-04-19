@@ -1,6 +1,8 @@
 ---
 date: "2023-01-04"
 title: "Dask.distributed and Pangeo: Better performance for everyone thanks to science / software collaboration"
+description: |
+  Dask's distributed scheduler algorithm got a major fix after we tested its' limits on a huge oceanography analysis problem.
 tags:
 - code
 - python
