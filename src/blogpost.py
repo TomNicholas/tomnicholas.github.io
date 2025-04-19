@@ -92,30 +92,44 @@ plugin = {
     ],
 }
 
+
+def thumbnail(irow) -> list[dict[str, str]]:
+    return [
+        {
+            "type": "image",
+            "url": irow['thumbnail'],
+        }
+    ]
+
+
 children = []
 for ix, irow in posts.iterrows():
+    title = [
+        {
+            "type": "cardTitle",
+            "children": [u.text(irow["title"])]
+        },
+    ]
+    text = [
+        {
+            "type": "paragraph",
+            "children": [u.text(irow['content'])]
+        },
+        {
+            "type": "footer",
+            "children": [
+            u.strong([u.text("Date: ")]), u.text(f"{irow['date']:%B %d, %Y} | "),
+            u.strong([u.text("Author: ")]), u.text(f"{irow['author']} | "),
+            u.strong([u.text("Tags: ")]), u.text(f"{", ".join(irow['tags'])}"),
+            ]
+        },
+    ]
+    card_contents = (title + thumbnail(irow) + text) if "thumbnail" in irow else (title + text)
     children.append(
         {
           "type": "card",
           "url": f"/{irow['path'].with_suffix('')}",
-          "children": [
-            {
-              "type": "cardTitle",
-              "children": [u.text(irow["title"])]
-            },
-            {
-              "type": "paragraph",
-              "children": [u.text(irow['content'])]
-            },
-            {
-              "type": "footer",
-              "children": [
-                u.strong([u.text("Date: ")]), u.text(f"{irow['date']:%B %d, %Y} | "),
-                u.strong([u.text("Author: ")]), u.text(f"{irow['author']} | "),
-                u.strong([u.text("Tags: ")]), u.text(f"{", ".join(irow['tags'])}"),
-              ]
-            },
-          ]
+          "children": card_contents
         }
     )
 
