@@ -4,56 +4,46 @@ Below are a few highlighted talks that I have given recently.
 `````{grid} 2
 
 ````{grid-item-card}
-:header: 2i2c, Building a Cloud Computing Infrastructure for Research and Education
-:footer: PSL Demo Day 2023
+:header: FROST: Federated Registry Of Scientific Things
+:footer: Pangeo Showcase February 2025
 
-:::{iframe} https://www.youtube.com/embed/coKoUoUzLPk?si=UcBiArPzTYNbe9pQ
+:::{iframe} https://www.youtube.com/embed/GZvJ0H89G0A?si=LJNzXVT-XE7o0Xuv
 :::
 ````
 ````{grid-item-card}
-:header: The New Jupyter Book Stack
-:footer: JupyterCon 2020
+:header: VirtualiZarr: Create virtual zarr stores using xarray syntax
+:footer: Pangeo Showcase March 2024
 
-:::{iframe} https://www.youtube.com/embed/2Z7wDaYt53Y?si=LjDpcwvWLFRgcjB4
-:::
-````
-````{grid-item-card}
-:header: Jupyter in Education @ Berkeley
-:footer: UC Berkeley Data Science Education Program Workshop 2020
-
-:::{iframe} https://www.youtube.com/embed/t0MjcXZf7SM
+:::{iframe} https://www.youtube.com/embed/ioxgzhDaYiE?si=_QhoInyA9Hz139ja&amp;start=24
 :::
 
 ````
 ````{grid-item-card}
-:header: Open Infrastructure for Open Science
-:footer: CSVConf 2019
+:header: What’s next for Pangeo?
+:footer: Pangeo Showcase December 2023
 
-:::{iframe} https://www.youtube.com/embed/fZ8S1uI_hcA
+:::{iframe} https://www.youtube.com/embed/bGUV5oav3Vw?si=JjX5cFQZyW7B3-BB
 :::
 ````
 ````{grid-item-card}
-:header: An Overview of Project Jupyter and Binder
-:footer: Google Cloud Platform Podcast
+:header: Cubed: Bounded-Memory Serverless Array Processing in Xarray
+:footer: Pangeo Showcase November 2023
 
-:::{iframe} https://www.youtube.com/embed/tw7yV4puDEk
+:::{iframe} https://www.youtube.com/embed/kYc6hIddjwA?si=wofILHy6yLvtIUy5
 :::
-
 ````
 ````{grid-item-card}
-:header: Binder 2.0: Next Gen of Reproducible Scientific Environments w/ repo2docker & BinderHub
-:footer: SciPy 2018
+:header: Xarray-Datatree: Hierarchical Data Structures for Multi-Model Science
+:footer: Pangeo Showcase February 2023
 
-:::{iframe} https://www.youtube.com/embed/KcC0W5LP9GM
+:::{iframe} https://www.youtube.com/embed/ST6CrJ58bkI?si=Y7T8VPXeSxJw-rC0&amp;start=16
 :::
-
 ````
 ````{grid-item-card}
-:header: Visualizing the Human Brain
-:footer: Plotcon 2016
+:header: Enabling Petabyte-scale Ocean Data Analytics with xGCM
+:footer: SciPy Conference 2022
 
-:::{iframe} https://www.youtube.com/embed/V847VcZaC_Q
+:::{iframe} https://www.youtube.com/embed/ftlgOESINvo?si=Sb4nytXQ-laFGysp
 :::
-
 ````
 `````
