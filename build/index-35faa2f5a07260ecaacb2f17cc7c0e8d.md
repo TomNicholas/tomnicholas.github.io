@@ -15,7 +15,7 @@ site:
 :class: col-body-right
 | A bit about me... |
 |---|
-|💼 Engineer @ [Earthmover](https://2i2c.org/) |
+|💼 Engineer @ [Earthmover](https://earthmover.io/) |
 |🌎 Active member of the [Pangeo Community](https://pangeo.io/) |
 |🌕 Core developer of [Xarray](https://xarray.dev) |
 |🧪 PhD in fusion plasma physics from [Uni. York](https://fusion-cdt.ac.uk/) & [CCFE](https://ccfe.ukaea.uk/) |
