@@ -1,6 +1,5 @@
-
 ---
-date: "2025-01-18"
+date: "2021-06-29"
 title: "Pan-Plasma: Plasma physics needs an open scientific python ecosystem following Pangeo"
 description: |
   Geoscientists have already solved many of the software problems plasma physicists still struggle with - they should just use the same solutions.
