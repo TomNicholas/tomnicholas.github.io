@@ -107,19 +107,12 @@ def make_card(irow):
         # paths and full URLs are passed through untouched.
         if not url.startswith(("http://", "https://", "/")):
             url = "/" + (irow["path"].parent / url).as_posix()
-        if url.lower().split("?")[0].endswith((".mp4", ".webm", ".ogg")):
-            # Video thumbnails need a <video> element, not an <img>.
-            card_children.append({
-                "type": "html",
-                "value": (
-                    '<div style="width:70%;margin-left:auto;margin-right:auto">'
-                    f'<video src="{url}" autoplay loop muted playsinline '
-                    'style="width:100%;display:block"></video>'
-                    '</div>'
-                ),
-            })
-        else:
-            card_children.append(u.image(url, width="70%"))
+        # An image node pointing at a video file (.mp4/.webm) is rendered by
+        # MyST as an autoplaying, looping <video>. This goes through the same
+        # media transform as images, so the localized src resolves reliably in
+        # CI - unlike a hand-written <video> html node, whose src came out as
+        # "/build/undefined" when the remote download lost a race during build.
+        card_children.append(u.image(url, width="70%"))
 
     card_children.extend([
         {
