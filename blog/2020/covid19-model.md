@@ -3,6 +3,7 @@ date: "2020-03-20"
 title: "Coronavirus: The Simplest Model"
 description: |
   Solving the simplest possible epidemiological model of the spread of COVID-19.
+thumbnail: images/SIRD_states.png
 tags:
 - code
 - python

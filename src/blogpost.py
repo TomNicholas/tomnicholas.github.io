@@ -92,32 +92,62 @@ plugin = {
     ],
 }
 
-children = []
-for ix, irow in posts.iterrows():
-    children.append(
+def make_card(irow):
+    card_children = []
+
+    # Optional cover image, shown at the top of the card. Only include it when
+    # this post actually defines a (non-null) thumbnail - note that
+    # `irow.get("thumbnail")` returns NaN, not None, for posts that omit it
+    # whenever any *other* post defines the column.
+    thumbnail = irow.get("thumbnail")
+    if pd.notna(thumbnail):
+        url = str(thumbnail)
+        # Resolve post-relative paths (e.g. "images/cover.jpg") against the
+        # post's directory so they work from the blog index page. Absolute
+        # paths and full URLs are passed through untouched.
+        if not url.startswith(("http://", "https://", "/")):
+            url = "/" + (irow["path"].parent / url).as_posix()
+        if url.lower().split("?")[0].endswith((".mp4", ".webm", ".ogg")):
+            # Video thumbnails need a <video> element, not an <img>.
+            card_children.append({
+                "type": "html",
+                "value": (
+                    '<div style="width:70%;margin-left:auto;margin-right:auto">'
+                    f'<video src="{url}" autoplay loop muted playsinline '
+                    'style="width:100%;display:block"></video>'
+                    '</div>'
+                ),
+            })
+        else:
+            card_children.append(u.image(url, width="70%"))
+
+    card_children.extend([
         {
-          "type": "card",
-          "url": f"/{irow['path'].with_suffix('')}",
+          "type": "cardTitle",
+          "children": [u.text(irow["title"])]
+        },
+        {
+          "type": "paragraph",
+          "children": [u.text(irow['content'])]
+        },
+        {
+          "type": "footer",
           "children": [
-            {
-              "type": "cardTitle",
-              "children": [u.text(irow["title"])]
-            },
-            {
-              "type": "paragraph",
-              "children": [u.text(irow['content'])]
-            },
-            {
-              "type": "footer",
-              "children": [
-                u.strong([u.text("Date: ")]), u.text(f"{irow['date']:%B %d, %Y} | "),
-                u.strong([u.text("Author: ")]), u.text(f"{irow['author']} | "),
-                u.strong([u.text("Tags: ")]), u.text(f"{", ".join(irow['tags'])}"),
-              ]
-            },
+            u.strong([u.text("Date: ")]), u.text(f"{irow['date']:%B %d, %Y} | "),
+            u.strong([u.text("Author: ")]), u.text(f"{irow['author']} | "),
+            u.strong([u.text("Tags: ")]), u.text(f"{", ".join(irow['tags'])}"),
           ]
-        }
-    )
+        },
+    ])
+
+    return {
+      "type": "card",
+      "url": f"/{irow['path'].with_suffix('')}",
+      "children": card_children,
+    }
+
+
+children = [make_card(irow) for _, irow in posts.iterrows()]
 
 
 def declare_result(content):
