@@ -3,7 +3,7 @@ date: "2026-06-02"
 title: "Old format, no problem!: Cloud-optimizing the GOES-16 archive as Virtual Zarr"
 description: |
   Access billions of chunks of satellite imagery as a single Zarr store, without copying any data!
-thumbnail: images/cover.jpg
+thumbnail: https://www.earthmover.io/images/blog/covers/virtual-zarr.mp4
 tags:
 - fundamentals
 - icechunk

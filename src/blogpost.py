@@ -107,7 +107,19 @@ def make_card(irow):
         # paths and full URLs are passed through untouched.
         if not url.startswith(("http://", "https://", "/")):
             url = "/" + (irow["path"].parent / url).as_posix()
-        card_children.append(u.image(url, width="70%"))
+        if url.lower().split("?")[0].endswith((".mp4", ".webm", ".ogg")):
+            # Video thumbnails need a <video> element, not an <img>.
+            card_children.append({
+                "type": "html",
+                "value": (
+                    '<div style="width:70%;margin-left:auto;margin-right:auto">'
+                    f'<video src="{url}" autoplay loop muted playsinline '
+                    'style="width:100%;display:block"></video>'
+                    '</div>'
+                ),
+            })
+        else:
+            card_children.append(u.image(url, width="70%"))
 
     card_children.extend([
         {
