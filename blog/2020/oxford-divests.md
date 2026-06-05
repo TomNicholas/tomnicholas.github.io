@@ -3,6 +3,7 @@ date: "2020-04-22"
 title: "Oxford University Divestment Explained"
 description: |
   Thought's on Oxford University's fossil fuel divestment motion.
+thumbnail: images/no-planet-b.jpg
 tags:
 - climate
 - oxford

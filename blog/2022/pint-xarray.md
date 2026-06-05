@@ -3,6 +3,7 @@ date: "2022-08-30"
 title: "Unit-aware arithmetic in Xarray, via pint"
 description: |
   All scientific computations involve units, so let's make our analysis software aware of them.
+thumbnail: images/pint.jpg
 tags:
 - code
 - python
