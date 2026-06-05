@@ -173,7 +173,7 @@ ds = xr.open_zarr(session.store, group="ABI-L2-MCMIPF/post-2023-04-19")
 ds
 ```
 
-```{code-block}
+```{code-block} text
 :caption: The entire GOES-16 MCMIPF archive opened as a single Xarray Dataset — petabytes addressable through one entrypoint, without copying any data.
 
 <xarray.Dataset> Size: 2PB
