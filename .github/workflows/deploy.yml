@@ -48,3 +48,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_build/html
+        # Preserve the custom domain across deploys. Without this the CNAME
+        # file (which lives at the repo root, not in _build/html) is dropped
+        # on every publish and GitHub Pages resets the custom domain.
+        cname: tom-nicholas.com
