@@ -107,7 +107,7 @@ def make_card(irow):
         # paths and full URLs are passed through untouched.
         if not url.startswith(("http://", "https://", "/")):
             url = "/" + (irow["path"].parent / url).as_posix()
-        card_children.append(u.image(url))
+        card_children.append(u.image(url, width="50%"))
 
     card_children.extend([
         {
