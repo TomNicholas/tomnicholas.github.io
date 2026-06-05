@@ -3,6 +3,7 @@ date: "2025-04-17"
 title: "Fundamentals: What is Cloud-Optimized Scientific Data?"
 description: |
   The article I wish I could have read back when I first heard of Zarr in 2018. Explains how object storage and conventional filesystems are different, and the key properties that make Zarr work so well in cloud object storage.
+thumbnail: images/cover.png
 tags:
 - cloud
 - zarr
