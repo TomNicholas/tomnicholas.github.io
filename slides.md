@@ -1,6 +1,6 @@
 # Slides
 
-Slides from talks I have given, newest first. Each deck is viewable directly in the browser and downloadable as a PDF. Where a recording of the talk exists, it is linked from the card (and also appears on the [talks page](./talks.md)). These decks are also on [Speaker Deck](https://speakerdeck.com/tomnicholas).
+Slides from talks I have given.
 
 `````{grid} 2
 
@@ -20,6 +20,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: Shortcutting Cloud Migrations with VirtualiZarr, Icechunk, and Earthmover
 :footer: AMS 2026
 
+[![First slide of Shortcutting Cloud Migrations](/slides/shortcutting-cloud-migrations/thumbnail.png)](/slides/shortcutting-cloud-migrations/shortcutting-cloud-migrations.pdf)
+
 [View slides (PDF)](/slides/shortcutting-cloud-migrations/shortcutting-cloud-migrations.pdf)
 ````
 
@@ -27,6 +29,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 ````{grid-item-card}
 :header: Open science the cloud-native way
 :footer: July 2025
+
+[![First slide of Open science the cloud-native way](/slides/open-science-cloud-native/thumbnail.png)](/slides/open-science-cloud-native/open-science-cloud-native.pdf)
 
 [View slides (PDF)](/slides/open-science-cloud-native/open-science-cloud-native.pdf)
 ````
@@ -36,6 +40,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: VirtualiZarr + Icechunk
 :footer: SciPy 2025, July 2025
 
+[![First slide of VirtualiZarr + Icechunk](/slides/virtualizarr-icechunk-scipy-2025/thumbnail.png)](/slides/virtualizarr-icechunk-scipy-2025/virtualizarr-icechunk-scipy-2025.pdf)
+
 [View slides (PDF)](/slides/virtualizarr-icechunk-scipy-2025/virtualizarr-icechunk-scipy-2025.pdf)
 ````
 
@@ -43,6 +49,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 ````{grid-item-card}
 :header: Cubed
 :footer: SciPy 2025, July 2025
+
+[![First slide of Cubed](/slides/cubed-scipy-2025/thumbnail.png)](/slides/cubed-scipy-2025/cubed-scipy-2025.pdf)
 
 [View slides (PDF)](/slides/cubed-scipy-2025/cubed-scipy-2025.pdf)
 ````
@@ -52,6 +60,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: VirtualiZarr & Icechunk: Build a cloud-optimized datacube in 3 lines
 :footer: May 2025
 
+[![First slide of Build a cloud-optimized datacube in 3 lines](/slides/virtualizarr-icechunk-datacube/thumbnail.png)](/slides/virtualizarr-icechunk-datacube/virtualizarr-icechunk-datacube.pdf)
+
 [View slides (PDF)](/slides/virtualizarr-icechunk-datacube/virtualizarr-icechunk-datacube.pdf)
 ````
 
@@ -59,6 +69,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 ````{grid-item-card}
 :header: FROST: Federated Registry Of Scientific Things
 :footer: Pangeo Showcase, February 2025
+
+[![First slide of FROST](/slides/frost/thumbnail.png)](/slides/frost/frost.pdf)
 
 [View slides (PDF)](/slides/frost/frost.pdf) · [Watch recording](#frost-talk)
 ````
@@ -68,6 +80,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: VirtualiZarr talk at the UK Met Office
 :footer: November 2024
 
+[![First slide of VirtualiZarr talk at the UK Met Office](/slides/virtualizarr-met-office/thumbnail.png)](/slides/virtualizarr-met-office/virtualizarr-met-office.pdf)
+
 [View slides (PDF)](/slides/virtualizarr-met-office/virtualizarr-met-office.pdf)
 ````
 
@@ -75,6 +89,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 ````{grid-item-card}
 :header: VirtualiZarr: Create virtual Zarr stores using xarray syntax
 :footer: Pangeo Showcase, March 2024
+
+[![First slide of VirtualiZarr](/slides/virtualizarr-pangeo/thumbnail.png)](/slides/virtualizarr-pangeo/virtualizarr-pangeo.pdf)
 
 [View slides (PDF)](/slides/virtualizarr-pangeo/virtualizarr-pangeo.pdf) · [Watch recording](#virtualizarr-talk)
 ````
@@ -84,6 +100,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: What's next for Pangeo?
 :footer: Pangeo Showcase, December 2023
 
+[![First slide of What's next for Pangeo?](/slides/whats-next-for-pangeo/thumbnail.png)](/slides/whats-next-for-pangeo/whats-next-for-pangeo.pdf)
+
 [View slides (PDF)](/slides/whats-next-for-pangeo/whats-next-for-pangeo.pdf) · [Watch recording](#pangeo-next-talk)
 ````
 
@@ -91,6 +109,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 ````{grid-item-card}
 :header: Cubed: Bounded-Memory Serverless Array Processing
 :footer: Pangeo Showcase, November 2023
+
+[![First slide of Cubed](/slides/cubed-pangeo/thumbnail.png)](/slides/cubed-pangeo/cubed-pangeo.pdf)
 
 [View slides (PDF)](/slides/cubed-pangeo/cubed-pangeo.pdf) · [Watch recording](#cubed-talk)
 ````
@@ -100,6 +120,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: Cubed-xarray lightning talk
 :footer: SciPy 2023, July 2023
 
+[![First slide of Cubed-xarray lightning talk](/slides/cubed-xarray-scipy-2023/thumbnail.png)](/slides/cubed-xarray-scipy-2023/cubed-xarray-scipy-2023.pdf)
+
 [View slides (PDF)](/slides/cubed-xarray-scipy-2023/cubed-xarray-scipy-2023.pdf)
 ````
 
@@ -107,6 +129,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 ````{grid-item-card}
 :header: xarray-Datatree: Hierarchical Data Structures for Multi-Model Science
 :footer: AMS Annual Meeting, January 2023
+
+[![First slide of xarray-Datatree](/slides/xarray-datatree/thumbnail.png)](/slides/xarray-datatree/xarray-datatree.pdf)
 
 [View slides (PDF)](/slides/xarray-datatree/xarray-datatree.pdf) · [Watch recording (Pangeo Showcase)](#datatree-talk)
 ````
@@ -116,6 +140,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: Pangeo for Plasma
 :footer: January 2023
 
+[![First slide of Pangeo for Plasma](/slides/pangeo-for-plasma/thumbnail.png)](/slides/pangeo-for-plasma/pangeo-for-plasma.pdf)
+
 [View slides (PDF)](/slides/pangeo-for-plasma/pangeo-for-plasma.pdf)
 ````
 
@@ -123,6 +149,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 ````{grid-item-card}
 :header: xGCM: Staggered grids, topologies, and ufuncs in python
 :footer: AMS Annual Meeting, January 2023
+
+[![First slide of xGCM](/slides/xgcm/thumbnail.png)](/slides/xgcm/xgcm.pdf)
 
 [View slides (PDF)](/slides/xgcm/xgcm.pdf)
 ````
@@ -132,6 +160,8 @@ Slides from talks I have given, newest first. Each deck is viewable directly in 
 :header: Can we analyse the largest ocean simulation ever?
 :footer: SciPy 2022, July 2022
 
-[View slides (PDF)](/slides/largest-ocean-simulation-scipy-2022/largest-ocean-simulation-scipy-2022.pdf) · [Watch recording](#xgcm-talk)
+[![First slide of Can we analyse the largest ocean simulation ever?](/slides/largest-ocean-simulation-scipy-2022/thumbnail.png)](/slides/largest-ocean-simulation-scipy-2022/largest-ocean-simulation-scipy-2022.pdf)
+
+[View slides (PDF)](/slides/largest-ocean-simulation-scipy-2022/largest-ocean-simulation-scipy-2022.pdf)
 ````
 `````
