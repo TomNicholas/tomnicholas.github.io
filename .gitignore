@@ -23,3 +23,5 @@ package-lock.json
 .makemd
 .obsidian
 .space
+
+.DS_Store
