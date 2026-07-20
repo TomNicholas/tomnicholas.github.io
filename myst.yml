@@ -41,6 +41,7 @@ project:
     # - file: projects.md
     # - file: publications.md
     - file: talks.md
+    - file: slides.md
     - file: blog.md
       children:
       - title: "2026"
@@ -89,5 +90,7 @@ site:
     #   url: /publications
     - title: Talks
       url: /talks
+    - title: Slides
+      url: /slides
     - title: Blog
       url: /blog

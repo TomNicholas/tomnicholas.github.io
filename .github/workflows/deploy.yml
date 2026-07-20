@@ -35,6 +35,13 @@ jobs:
       run: |
         myst build --html
 
+    # Slide decks are pre-built static files (see scripts/import-slidev-talk.sh)
+    # that MyST doesn't know about, so copy them into the output directly.
+    - name: Copy slide decks
+      run: |
+        mkdir -p _build/html/slides
+        cp -r slides/. _build/html/slides/
+
     # Move RSS feeds to output folder
     # - name: Move RSS feeds
     #   run: |

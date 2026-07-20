@@ -3,9 +3,10 @@
 Below are a few highlighted talks that I have given recently.
 `````{grid} 2
 
+(frost-talk)=
 ````{grid-item-card}
 :header: FROST: Federated Registry Of Scientific Things
-:footer: Pangeo Showcase February 2025
+:footer: Pangeo Showcase February 2025 · [Slides](#frost-slides)
 
 :::{iframe} https://www.youtube.com/embed/GZvJ0H89G0A?si=LJNzXVT-XE7o0Xuv
 :::
