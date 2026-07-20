@@ -1,0 +1,1 @@
+const t="/slides/virtual-chunks-esip/brand-kit/Earthmover-Brand-Identity-Assets/02%20Earthmover%20Full%20Lockup/03%20Vector%20-%20RGB%20-%20SVG/02-Earthmover-Full-Lockup-Violet-RGB.svg";export{t as _};
