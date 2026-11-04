@@ -1,0 +1,119 @@
+<svg width="1620" height="460" viewBox="0 0 1620 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(178,0)">
+  <defs>
+    <marker id="arrow-dark-violet" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 1 L9 5 L0 9" fill="none" stroke="#6D0EDB"
+            stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <!-- Eyebrow above the tuple pill -->
+  <text x="720" y="44" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="20" font-weight="900" letter-spacing="0.05em"
+        fill="#A653FF">A VIRTUAL CHUNK REFERENCE</text>
+
+  <!-- Tuple pill -->
+  <rect x="180" y="60" width="1080" height="84" rx="42" fill="#31D495"/>
+  <text x="720" y="109" text-anchor="middle"
+        font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="22" font-weight="500" fill="#201F2C">{"url": "s3://archive/sst_2024_03.nc", "offset": 652068, "length": 8192}</text>
+
+  <!-- Arrow down into the file -->
+  <line x1="686" y1="148" x2="686" y2="224"
+        stroke="#6D0EDB" stroke-width="2" stroke-linecap="round"
+        marker-end="url(#arrow-dark-violet)"/>
+
+  <!-- File eyebrow -->
+  <text x="226" y="208"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="20" font-weight="900" letter-spacing="0.05em"
+        fill="#A653FF">FILE LAYOUT — sst_2024_03.nc</text>
+
+  <!-- Outer file container -->
+  <rect x="162" y="232" width="1116" height="196" rx="20"
+        fill="none" stroke="#201F2C" stroke-width="2"/>
+
+  <!-- Segment 1: HDF5 header -->
+  <rect x="170" y="240" width="125" height="180" rx="10"
+        fill="#201F2C" fill-opacity="0.04" stroke="#787878" stroke-width="1.5"/>
+  <text x="232" y="320" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="18" font-weight="500" fill="#201F2C">header</text>
+  <text x="232" y="348" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" fill="#787878">superblock</text>
+
+  <!-- Segment 2: global attrs -->
+  <rect x="301" y="240" width="155" height="180" rx="10"
+        fill="#201F2C" fill-opacity="0.04" stroke="#787878" stroke-width="1.5"/>
+  <text x="378" y="320" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="19" font-weight="500" fill="#201F2C">global attrs</text>
+  <text x="378" y="348" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" fill="#787878">metadata</text>
+
+  <!-- Segment 3: chunk [0,1] -->
+  <rect x="462" y="240" width="125" height="180" rx="10"
+        fill="#201F2C" fill-opacity="0.04" stroke="#787878" stroke-width="1.5"/>
+  <text x="524" y="320" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="18" font-weight="500" fill="#201F2C">chunk [0,1]</text>
+  <text x="524" y="348" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" fill="#787878">140 B</text>
+
+  <!-- Segment 4: chunk [1,0] — HIGHLIGHTED, this is the referenced chunk -->
+  <rect x="593" y="240" width="185" height="180" rx="10"
+        fill="#A653FF" stroke="#B7E400" stroke-width="3"/>
+  <text x="686" y="320" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="20" font-weight="500" fill="#F5F5F5">chunk [1,0]</text>
+  <text x="686" y="348" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" fill="#F5F5F5">8192 B</text>
+
+  <!-- Segment 5: unused/padding -->
+  <rect x="784" y="240" width="65" height="180" rx="10"
+        fill="#201F2C" fill-opacity="0.04" stroke="#787878" stroke-width="1.5"/>
+  <text x="816" y="336" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" font-weight="500" fill="#201F2C">unused</text>
+
+  <!-- Segment 6: chunk [0,0] -->
+  <rect x="855" y="240" width="145" height="180" rx="10"
+        fill="#201F2C" fill-opacity="0.04" stroke="#787878" stroke-width="1.5"/>
+  <text x="927" y="320" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="19" font-weight="500" fill="#201F2C">chunk [0,0]</text>
+  <text x="927" y="348" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" fill="#787878">512 B</text>
+
+  <!-- Segment 7: attrs -->
+  <rect x="1006" y="240" width="105" height="180" rx="10"
+        fill="#201F2C" fill-opacity="0.04" stroke="#787878" stroke-width="1.5"/>
+  <text x="1058" y="320" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="18" font-weight="500" fill="#201F2C">attrs</text>
+  <text x="1058" y="348" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" fill="#787878">var attrs</text>
+
+  <!-- Segment 8: chunk [1,1] -->
+  <rect x="1117" y="240" width="153" height="180" rx="10"
+        fill="#201F2C" fill-opacity="0.04" stroke="#787878" stroke-width="1.5"/>
+  <text x="1193" y="320" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="19" font-weight="500" fill="#201F2C">chunk [1,1]</text>
+  <text x="1193" y="348" text-anchor="middle"
+        font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+        font-size="16" fill="#787878">4096 B</text>
+  </g>
+  <!-- netCDF logo, immediately left of the file layout -->
+  <image x="170" y="238" width="150" height="145"
+         href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB5CAYAAAAUES4zAAATO0lEQVR4nO1dD4wc51V/Ozdeb85/cnGvju1czGHIGRuLlqhJkQVNCSEKSAWioFIkQhpIC5VrCqmquKqaqrIQqhIECapoqRBClROFxtgx2DGhoBDcpqmdBtoo8iVHzo7P57vz+m5vb3Z2bv6iN/699bvx3vni3sxtMvPk0Z53Z+bN937f977vvfl+31eiy8Wg7CTsAL1Z6l4uvXN0l+SPLb/80Z4o8Hv82aYZ+K4RhWFaDxQ2zo9M1kfesIjIN37t3kppzbp15FhmNOuYFPgGRdHSay2VKGrM2NGLR6qs995776Xdu3f31uv1yoULF8xms2mEYRKTpZEgCPxHH310bHBw0OXyHz9+fG2pVFo7MTFhWpZlBEGQGvhPP/10df/+/TaXGUdo4jejq3zNF0qG8ekVq66V81N6kMg1uszP1EfeeI6IrNJ7Nt5B16z6R7p2nYEamJoBSs3GoeDFI59jvbfddtvq/v7+w4ZhbImfKopS0xsEQfWFF174zcHBwbeIyB4YGPhypVJ5AHr5I03d9+/fv/8YEdVZNxG5LdCJogoR8ZGuRGS4jemfIKI+IhqjWXs1XbOqkomrm22uI6J+IhodHBw0o+hSmUulltNbcgmCoHt4eJj1OkQ06ThOd6VSSV0vy8mTJ1nvKS6ztPYW6FEUGiXqSvUBRFcw29wE0J3IdcrpFvuSRK6zlog2c42fmJgIwzA0urrSL7Pv+0atVmO93LW4rttqbKnL+Pj4jbC1jdbuSOtKpx+dR8LA7yEibnXd5HvlzBQHPreuXiJabVlWBa41dYmiyHRd9z1ExJWuwpUgE8VE1Gg01rVsTcSVzWDll4DPQNjMURQx0HyYlGJfernyyBS9GDxlU+YoojAMK2J09jCUkfh+XNG5zK3yZhkyXJJLQGesvzVoivVm1dKVZFbRFtK7PKAvn25jGXSmPkJ/u9IxD1JIdlKAnkMpQM+hFKDnUArQcygF6DmUAvQcSgF6DqUAPYdSgJ5DKUDPoRSg51AK0HMoBeg5lAL0HEoBeg6lAD2HspyghznRSZjmvCy6Owf0UokNIEeWikn0MhBpzzlPyLKUuTTX1rFuU/4Ig+AMkXsyDIJKFAaVi5MXl36mahSRH/luDRP/XfLcSXJnX6PA746nKIfMukllhmxI9kxVWB7NZtOxLOt1/ttxnIrneeWUZqmGzWbT9jxvJi4vkW9Z1sjk5OTrrNd13VhvGgwbBtyyrHiuu1Ca4u/xe/ma665fHwZef+i5W6Iw6IuiiPlNaUzKd0PfG4/C4M2YedG9xiqtWrM+cpqbKfD7KQqvo4in7C7lTNUS//MpCKbIdZjtMbRy5crJbdu2ra3X65tt2+4PguC9mKZsLLXhoyiamZqaeisMwyFm9Wzbto3ZNZsty9riuu7GKIq6UwLdnZ6ePu+6LtuadY/EVDL8bmIyPBMBNqjJ8WnUfK5xTF6cAOPDhq71QkRIqbKF0FWF7jrmg/dCNxMRyinp5RY+GdO4iNjLkdLbo+alp2FrG+UdwzM4YtywtL7PJ9+zotnmBAWBRRSVU2KPhuTN2hd1kHX99df7vb29ND09XZ2dnXWCICin5eo8z3NnZmZYb71cLrtbt25l91ezbdv3fb/KTBRKR/xarVYPw5B12zfddBO781qj0fA9z6uFcZe29MJlrtfrjud5sa3FxUtLN7ru/+IDVCrdTVFgUoj+PB0ygB+9NfjV8PkDJ/hBXn755fdv3Ljxcww2033Qvy25Uh60jY+Pf3fnzp1fZ72PP/545b777tsbRVGf7/um6F1q3azX9/3arl27vnTw4MEx8Og+vnLlyo9weYMgYFefCvGCde/bt++RBx988IcAPcFaLZV+lrq67qK0SYxR5FMY/huYlFzYvnK5fFcWkUStVnPgUo1Go1FZsWLFh7u6umKqcpriui4zVTfB6GQYxvsqlcqdaeuF7mfAWJVupsVaJYp45JoNa5WsaWZSboLbS58eDZmenub+k6m7/tmzZ40MWavm+fPn+zGOCGdnZ801a9ZQFjIyMsK23gzA45YurcukzEh1EVOGubWtB3s0M9aqbdvdGKj2TE1NZcZaZbJks9mUQVu353mZUZWnp6c3iK1lgByzKC/+nCF7NAi4dTMA5TSX3kiK7/tl0et5HodSWbFWDd/3uWnHzNUsy+y6breUWYiMy5SGjY0dH1kZPtZ6sWWboAtTxtIqc5ZKYd85upcr974sdOEsK1gn6U5KxzxIIdlJAXoOpQA9h1KAnkMpQM+hFKDnUArQcygF6DmUAvQcSgF6DqUAPYdSgJ5DKUDPoRSg51AK0HMoBeg5lAL0HEoBenaSc9aqYlFmyRxNMDgzFVXOsBNAx0PEBslIq8FzsOON6QzDyEwvdLnxhH/TzAx8BtxQZUbly0RM0xS9LdZqi8sWnTv1FIXBabJqN0ROc31MHV5yunIppFLJp9FTr8vmcM8999wJ27Y/e+bMmRuq1eoGx3FWM9Vnqb2QYRj+mTNnmOkR06RfeeWV2tGjR/dWq9WfGhsb22BZVg9PkV7qCYxc0YIgqJ87d+6ckA2effbZp1auXPnG6Ojoxnq93ut5Hs/BX1I6l1S0l156idmqQg2fw2UzMRl+A/bwksnxabh/F4Azr2sUhhDdm/B3OUUG5xj01qBH9KbFHtVs2VF8Emy8CezVSoq2tlDmEbBXbbMNnZZgkLToRj5qXR1H7PLwm52iAaSMdVXzXRjCUfuWpaFX6Nk14bMBfB+fabF8woStWd+lQh4/fnyz67pbJiYmKrzprOu6aa2O4B85cuTkgQMHYqM/+eSTa3fs2LHj/PnzlcnJyQrzvNJggLCbHRkZmdizZw/Xeveee+4xHn744R31er3nwoULFdu2Y9ZsGnqDIHD37t17YmhoKO5bjx071m+aZn+1Wq0wrYtpTmnM/+/q6gqfeOKJVw8fPhx3KzKIbYHe19f3qRUrVvzJ1q1bKU2JosgvlUp/duDAAd5g17/llls+dOONN35zYGAg9Uji7Nmz/7pnz56HuOC3335798DAwD/IBrtpiud5k4cOHbp7aGiImbr+9u3bd69ateqTlIHUarU/Onz48Ato5a6mNaW6nbMWrtGnT5++QfrRLFmrtVpN9lrtGR4e7s6K2sQeZHR0dDP677XszTJRTETDw8Oy12prpY0W6Fnt/8ldxoULFxhwPnjNl8xYqzMzM2thgJ5qtcqgZ1JmjkZmZmb6ZFmXLDfY1bbWe61S1oQ+Dstks9ksaz2v5ESgCzebzcz0ckX3PO86iUwQkmYijuP0wNbLt8EuC9ZYiY8sN5tFF1YWunCGVOV4Z2Upc5akTVQwc9lZq4o+m7UYtEyyDJv5zivFC5cc2rpjHqSQ7KQAPYdSgJ5DKUDPoRSg51AK0HMoBeg5lAL0HEoBeg6lAD2HUoCeQylAz6EUoOdQCtBzKAXoOZQC9BxKAXoOpdhgNyPJkrTYkaAzmVDoPlkaA6xVH2xZylKY2bMc9GzYuqVbb7AbOo5zhohek01feVsp7LGy1PuOho1Gowpul9toNCZnZmZedRynm3Wz3rR2YBwfH5+QTekcx+ENdk9aluWoDXYpjb1Wbdu2PM+bFtYqb7A7NTV1stlsxnoxSzeVMrN9UWanVenwOwPcg0nxvH9YX4p7ngpRklmUb+GBhHkSExFSZK3WwRw9hWeoQKewT9JkrY6ivFzxCGzZfrBX09rX1gVpcgRlHk2yVp02rNU0N32dTPCmCRUg3sYqBb1Sxhp0S+038DmS8ga7dejlT4JeLvdYyhvsCq611qII6gQTBq8IIYDSEelXXQW4mdCbFlU5VHpjMp8qc1p6SZVXDkJZRW9Wto5Zs8kRxWV7eKX4MMnlP97Nekl5szBjvbrMse6FhpFpPcxiRuvGu0jvYnQvp60LyYNkFzC+e8SYxy1fabmyxRBFw0W00LdLOL3sngXoNMd4VzI2h1gfIKL34e8Qo+8fEdEPEJLp5btCXPd+FZa1qzB8TRX3kmTKnIQKQtntuHaxg84Qo/ah5LJieZUyEX2ciP4YMbreeViLgVj6L4joNLN/4/3A5x783Vki+gYR/ZwsPqBW7XqDiBoLHNO4/r+I6NOoUD2JqOIuXlfhCvdpd/wL8hCtlSgyI8d3oFSI6FMw7jEVu9uJETYnUZ4iop0Ie77NmUsiGsfv7yWinyGiW4noAZz3WSL6H9xLgDfhCdoJ/yYrRvD1v0tEnyei1/FMPp53NZ5T8ikLiZTBQhklXDTeaaCrFS4XfT7Nc42hXOV6da52gWzobwEIBvGrKrmiz+MWuo+I7ieiDxPRY0S0C6CJsPv+S+W6W2lR6OZW+PNE9FHo+1si2k1Eb0KnJI6+R0T7VVJJL8k2XyJszqIEnQp6Oxcrx2Vx5wLnatD1Yaiym3DvpJIYct8/AACvAUhJJsWrXapEiyR5HsO1dxDRHwJkWz23qbKCsoaefm7u01+Cp7gVnugR/C4LMkm5bNzHugLojso+zl1HrkOEC/bTKNAEno9d581wUZwq/SE+WxkmBeRq9KnSr/I9TqK1xC946KIMqH63DB01tPgqBj4+jM7XfBP6HNxTuoIk6Azk32PAtQU6tEg6dgJ6dAWT1s7f/w0qDPfjB3CdXoVL0tijelHARWY/L60j1yHChnqWiJ6He3sI7pIHISIjqP2H1AqMXLgdRPQVIvpQwkAWXOJjqDA9cMcGQCf0n9pz7IahtqDCyKh8Aq1R6xUpK8N+UZ1jtHG3tXlAl2diXf9JRB8jog8C3Mo8K1/WrjAqv8wzdhLoUtPXomXvg9s9hnDIQAu+k4i+jJr+PXzym7JnMOji707AuL1wk7ej9T0EEJ+HEW/Fp7Rs8R7Sv1bg2kP1wkRaebJ16TDrGMDz24SEuuVp0MUG0kf/BxH9NrwSe7Arrbe3UN5gTlfYaaDL82xHi3oEINkw1nEY/feI6G6ARRhg8cj3r4noRfUGS4z3q+ifP4/+8isw5GNwwUcRNlVVC+VrCK1b1natJ94KatEtULvj7jbnLdQqxRucwucG9TKK4NE+gd+ki2l3v/8jor9rM07pKNB1bR0DkJPqnTAXkDCa/pjql29Gi30egJs4V786/RZi3ztx7ncTAExDVxWHBq2aaJnz9Z9yPxlniG75/moWEPZVUmcFft+M40rC3u4gbNex7l3Lm8qNSj8qoZJUgm4cv4RWcAKtQr821SP478DNfxDdhQ6Z5B37GA6Z+MDiKZe8mIyW3FNeGV9NBkx7gzBRDh6Yvqo8Qrtn4v+fw/jFSUQQHQu6GF23PkuNkqWQJlowwX3LtckUpowXDPT/FRhD6xL3Xcd3PGBkufYKLvlK5bjatGe8sqVaH157we+o0C85oBS9Oobv2D693UOLm5aY2EzEtqbqM6VSaNC1yP0m59HnJ45hfC+V6u28+5bzrnZihoG+u6Iqn5RHrx0vc/7adTnSJV32e6eCnpxtslCL4cKz/BNy09JqkyNjmaHiz/O7iOiSNOrNbWb1LNR6+Zw/ReU6dJVTsLgifwR//wjP7Cm7WOoFTTLJo8shFXjOYK+TQdeykJFPITbnmPq/Vf8s/R0l+ndfZbEWGkUPoe/kgd+vIP/erdxpu2vZnr+AON3HPaptKspCrZ/v8VvIBOocgZsYLNoqVl8oORO+2xguIcI4C0kcA4aQ/VJkxu0I3PSuRBpVS9J9+4ggWMfvE9EvIlqQPWZ0PlvGDDuQkVuNMDBMJJa0nuQhXRXn3v9KeS+JGpxEufWAcb6jbaXu1Ja+2MGPj5Z+FImMTyCFGW/ZoV427ERCZx3CN9k/xcF3vWojHz0d+fswPIeIXyCin8TLjpPKrRq4hySNNsFD/DvAl5GziehCKoiMrEP8n9PPv0NEv4Hv/pmI/lfF/nrg+WNJp4JOC4QiOpQR4L6OvDm3xj9H+MaukZDF+wDO/RoGPxWA/H24488gjJsEGK/hniHSwWWA8UlUriFUNhcVhgGTbUF+oHL1OjHSC7ff7mWRzMgleKWDyDnoKdvztfR3POgOwJKWKm5KS4hzxKDSt30J76F/Ha1OWquNlvcMwDRUhfkGwLoDoJIydK/Kk7P3eAVZwO3o5/kQcVERvo3zJEqQ/LpkFfVoXgMm+YFX0brFi0yikkoKeEjtLnXVs2A6aboUG6O1xwoKpQstyY5uACUTA+Q1pbwi1UwZAVBG67ZKwtSVy92O1iqJmgn1Ns1W7rgXHoWv2YjnrmNChbhg2RKrqjKKsvebpFQpAVoySrETuX7ZQmwzugwH95eQLXwngy4vXGQjQJ3vDuc5R0I0eUO1Tm1fIeGSZK+sBLNGKto6NUiTyQlJRkpF6e1WDCA9+SKZ5JGR/mqlQ48ZNFi6u5L8hJ7JIzNnVuP/omehSRQdDzqh5ZUVWHqf0OQ54ip1elRYIwKKdF8Sq9pt3m7J4E1fk5x8oCuc9L/6/howOfRziw6J99tNxtQjcX2938Y2+m3dQu8C3hGg0zwzXhZ7jg5/kv2nNmrY5l76mnbnJ8Mr/VZQn98uI6ivWShM1gO0dmVfjG3ekaAvlbQzbrhE588H3GJA+HGuXRL5fw1pPz19XDWjAAAAAElFTkSuQmCC"/>
+
+</svg>
