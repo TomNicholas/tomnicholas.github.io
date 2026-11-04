@@ -1,0 +1,131 @@
+<svg viewBox="0 0 1900 1000" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Layered stacks, from user applications down to object storage: the tabular modern data stack (Tableau, Snowflake, Iceberg) beside the array-native stack (Flux, Arraylake, Icechunk, virtual ingestion)">
+    <text x="920" y="52" text-anchor="middle"
+          font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+          font-size="30" style="font-size:30px" font-weight="700"
+          fill="#1B8FC7">Modern data stack (tabular)</text>
+    <text x="1440" y="52" text-anchor="middle"
+          font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+          font-size="30" style="font-size:30px" font-weight="700"
+          fill="#7B3FD4">Cloud-native scientific stack (arrays)</text>
+    <g>
+      <text x="50" y="901" text-anchor="middle" transform="rotate(-90, 50, 901)"
+            font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="23" style="font-size:23px" font-weight="700" letter-spacing="0.05em"
+            fill="#787878">CLOUD</text>
+      <rect x="110" y="846" width="1690" height="110" rx="24" fill="#201F2C" stroke="#201F2C" stroke-width="1.5"/>
+      <text x="140" y="914" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="32" style="font-size:32px" font-weight="700" fill="#F5F5F5">Object Storage</text>
+      <image x="705.5" y="873" width="93" height="56" href="data:image/png;base64,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"/>
+      <image x="946" y="871" width="60" height="60" href="data:image/png;base64,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"/>
+      <svg x="1170" y="871" width="60" height="60" viewBox="0 0 96 96">
+        <defs>
+          <linearGradient id="az1" x1="-1032.172" x2="-1059.213" y1="145.312" y2="65.426" gradientTransform="matrix(1 0 0 -1 1075 158)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#114a8b"/>
+            <stop offset="1" stop-color="#0669bc"/>
+          </linearGradient>
+          <linearGradient id="az2" x1="-1023.725" x2="-1029.98" y1="108.083" y2="105.968" gradientTransform="matrix(1 0 0 -1 1075 158)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-opacity=".3"/>
+            <stop offset=".071" stop-opacity=".2"/>
+            <stop offset=".321" stop-opacity=".1"/>
+            <stop offset=".623" stop-opacity=".05"/>
+            <stop offset="1" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="az3" x1="-1027.165" x2="-997.482" y1="147.642" y2="68.561" gradientTransform="matrix(1 0 0 -1 1075 158)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#3ccbf4"/>
+            <stop offset="1" stop-color="#2892df"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#az1)" d="M33.338 6.544h26.038l-27.03 80.087a4.152 4.152 0 0 1-3.933 2.824H8.149a4.145 4.145 0 0 1-3.928-5.47L29.404 9.368a4.152 4.152 0 0 1 3.934-2.825z"/>
+        <path fill="#0078d4" d="M71.175 60.261h-41.29a1.911 1.911 0 0 0-1.305 3.309l26.532 24.764a4.171 4.171 0 0 0 2.846 1.121h23.38z"/>
+        <path fill="url(#az2)" d="M33.338 6.544a4.118 4.118 0 0 0-3.943 2.879L4.252 83.917a4.14 4.14 0 0 0 3.908 5.538h20.787a4.443 4.443 0 0 0 3.41-2.9l5.014-14.777 17.91 16.705a4.237 4.237 0 0 0 2.666.972H81.24L71.024 60.261l-29.781.007L59.47 6.544z"/>
+        <path fill="url(#az3)" d="M66.595 9.364a4.145 4.145 0 0 0-3.928-2.82H33.648a4.146 4.146 0 0 1 3.928 2.82l25.184 74.62a4.146 4.146 0 0 1-3.928 5.472h29.02a4.146 4.146 0 0 0 3.927-5.472z"/>
+      </svg>
+      <svg x="1363.5" y="881" width="121" height="40" viewBox="0 0 101.4 33.5">
+        <path fill="#fff" d="M94.7,10.6,89.1,9.3l-1-.4-25.7.2V21.5l32.3.1Z"/>
+        <path fill="#f48120" d="M84.2,20.4a2.85546,2.85546,0,0,0-.3-2.6,3.09428,3.09428,0,0,0-2.1-1.1l-17.4-.2c-.1,0-.2-.1-.3-.1a.1875.1875,0,0,1,0-.3c.1-.2.2-.3.4-.3L82,15.6a6.29223,6.29223,0,0,0,5.1-3.8l1-2.6c0-.1.1-.2,0-.3A11.39646,11.39646,0,0,0,66.2,7.7a5.45941,5.45941,0,0,0-3.6-1A5.20936,5.20936,0,0,0,58,11.3a5.46262,5.46262,0,0,0,.1,1.8A7.30177,7.30177,0,0,0,51,20.4a4.102,4.102,0,0,0,.1,1.1.3193.3193,0,0,0,.3.3H83.5c.2,0,.4-.1.4-.3Z"/>
+        <path fill="#faad3f" d="M89.7,9.2h-.5c-.1,0-.2.1-.3.2l-.7,2.4a2.85546,2.85546,0,0,0,.3,2.6,3.09428,3.09428,0,0,0,2.1,1.1l3.7.2c.1,0,.2.1.3.1a.1875.1875,0,0,1,0,.3c-.1.2-.2.3-.4.3l-3.8.2a6.29223,6.29223,0,0,0-5.1,3.8l-.2.9c-.1.1,0,.3.2.3H98.5a.26517.26517,0,0,0,.3-.3,10.87184,10.87184,0,0,0,.4-2.6,9.56045,9.56045,0,0,0-9.5-9.5"/>
+        <path fill="#F5F5F5" d="M100.5,27.2a.9.9,0,1,1,.9-.9.89626.89626,0,0,1-.9.9m0-1.6a.7.7,0,1,0,.7.7.68354.68354,0,0,0-.7-.7m.4,1.2h-.2l-.2-.3h-.2v.3h-.2v-.9h.5a.26517.26517,0,0,1,.3.3c0,.1-.1.2-.2.3l.2.3Zm-.3-.5c.1,0,.1,0,.1-.1a.09794.09794,0,0,0-.1-.1h-.3v.3h.3Zm-89.7-.9h2.2v6h3.8v1.9h-6Zm8.3,3.9a4.10491,4.10491,0,0,1,4.3-4.1,4.02,4.02,0,0,1,4.2,4.1,4.10491,4.10491,0,0,1-4.3,4.1,4.07888,4.07888,0,0,1-4.2-4.1m6.3,0a2.05565,2.05565,0,0,0-2-2.2,2.1025,2.1025,0,0,0,0,4.2c1.2.2,2-.8,2-2m4.9.5V25.4h2.2v4.4c0,1.1.6,1.7,1.5,1.7a1.39926,1.39926,0,0,0,1.5-1.6V25.4h2.2v4.4c0,2.6-1.5,3.7-3.7,3.7-2.3-.1-3.7-1.2-3.7-3.7m10.7-4.4h3.1c2.8,0,4.5,1.6,4.5,3.9s-1.7,4-4.5,4h-3V25.4Zm3.1,5.9a2.00909,2.00909,0,1,0,0-4h-.9v4Zm7.6-5.9h6.3v1.9H54v1.3h3.7v1.8H54v2.9H51.8Zm9.4,0h2.2v6h3.8v1.9h-6Zm11.7-.1h2.2l3.4,8H76.1l-.6-1.4H72.4l-.6,1.4H69.5Zm2,4.9L74,28l-.9,2.2Zm6.4-4.8H85a3.41818,3.41818,0,0,1,2.6.9,2.62373,2.62373,0,0,1-.9,4.2l1.9,2.8H86.1l-1.6-2.4h-1v2.4H81.3Zm3.6,3.8c.7,0,1.2-.4,1.2-.9,0-.6-.5-.9-1.2-.9H83.5v1.9h1.4Zm6.5-3.8h6.4v1.8H93.6v1.2h3.8v1.8H93.6v1.2h4.3v1.9H91.4ZM6.1,30.3a1.97548,1.97548,0,0,1-1.8,1.2,2.1025,2.1025,0,0,1,0-4.2,2.0977,2.0977,0,0,1,1.9,1.3H8.5a4.13459,4.13459,0,0,0-4.2-3.3A4.1651,4.1651,0,0,0,0,29.4a4.07888,4.07888,0,0,0,4.2,4.1,4.31812,4.31812,0,0,0,4.2-3.2Z"/>
+      </svg>
+      <rect x="1518" y="868" width="260" height="66" rx="33" fill="#201F2C" stroke="#787878" stroke-width="1.5"/>
+      <text x="1648" y="908" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="18" style="font-size:18px" font-weight="700" fill="#F5F5F5">generic S3-compatible</text>
+    </g>
+    <g>
+      <text x="50" y="649" text-anchor="middle" transform="rotate(-90, 50, 649)"
+            font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="23" style="font-size:23px" font-weight="700" letter-spacing="0.05em"
+            fill="#787878">OPEN SOURCE</text>
+      <rect x="110" y="720" width="1690" height="110" rx="24" fill="#201F2C" fill-opacity="0.03" stroke="#787878" stroke-width="1.5"/>
+      <text x="140" y="788" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="32" style="font-size:32px" font-weight="700" fill="#201F2C">Format Compatibility</text>
+      <rect x="710" y="742" width="420" height="66" rx="33" fill="#5EC4F7"/>
+      <text x="920" y="784" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#201F2C">DB "external tables"</text>
+      <rect x="1230" y="742" width="420" height="66" rx="33" fill="#A653FF"/>
+      <text x="1440" y="784" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#F5F5F5">Virtual Ingestion</text>
+    </g>
+    <g>
+      <rect x="110" y="594" width="1690" height="110" rx="24" fill="#201F2C" fill-opacity="0.03" stroke="#787878" stroke-width="1.5"/>
+      <text x="140" y="662" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="32" style="font-size:32px" font-weight="700" fill="#201F2C">Storage Engine</text>
+      <rect x="710" y="616" width="420" height="66" rx="33" fill="#5EC4F7"/>
+      <text x="920" y="658" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#201F2C">Iceberg · Delta Tables</text>
+      <rect x="1230" y="616" width="420" height="66" rx="33" fill="#A653FF"/>
+      <text x="1440" y="658" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#F5F5F5">Icechunk</text>
+    </g>
+    <g>
+      <rect x="110" y="468" width="1690" height="110" rx="24" fill="#201F2C" fill-opacity="0.03" stroke="#787878" stroke-width="1.5"/>
+      <text x="140" y="536" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="32" style="font-size:32px" font-weight="700" fill="#201F2C">Analysis &amp; Compute</text>
+      <rect x="710" y="490" width="420" height="66" rx="33" fill="#5EC4F7"/>
+      <text x="920" y="532" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#201F2C">Pandas / DuckDB · Polars</text>
+      <rect x="1230" y="490" width="420" height="66" rx="33" fill="#A653FF"/>
+      <text x="1440" y="532" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#F5F5F5">Xarray · Zax</text>
+    </g>
+    <g>
+      <text x="50" y="334" text-anchor="middle" transform="rotate(-90, 50, 334)"
+            font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="23" style="font-size:23px" font-weight="700" letter-spacing="0.05em"
+            fill="#787878">PLATFORM</text>
+      <rect x="110" y="342" width="1690" height="110" rx="24" fill="#201F2C" fill-opacity="0.03" stroke="#787878" stroke-width="1.5"/>
+      <text x="140" y="410" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="32" style="font-size:32px" font-weight="700" fill="#201F2C">Data Catalog &amp; Governance</text>
+      <rect x="710" y="364" width="420" height="66" rx="33" fill="#5EC4F7"/>
+      <text x="920" y="406" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#201F2C">Snowflake · Delta Lake</text>
+      <rect x="1230" y="364" width="420" height="66" rx="33" fill="#A653FF"/>
+      <text x="1440" y="406" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#F5F5F5">Arraylake</text>
+    </g>
+    <g>
+      <rect x="110" y="216" width="1690" height="110" rx="24" fill="#201F2C" fill-opacity="0.03" stroke="#787878" stroke-width="1.5"/>
+      <text x="140" y="284" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="32" style="font-size:32px" font-weight="700" fill="#201F2C">Query &amp; Visualization Services</text>
+      <rect x="710" y="238" width="420" height="66" rx="33" fill="#5EC4F7"/>
+      <text x="920" y="280" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#201F2C">Tableau · Looker · Power BI</text>
+      <rect x="1230" y="238" width="420" height="66" rx="33" fill="#A653FF"/>
+      <text x="1440" y="280" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#F5F5F5">Flux</text>
+    </g>
+    <g>
+      <text x="50" y="145" text-anchor="middle" transform="rotate(-90, 50, 145)"
+            font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="23" style="font-size:23px" font-weight="700" letter-spacing="0.05em"
+            fill="#787878">APPS</text>
+      <rect x="110" y="90" width="1690" height="110" rx="24" fill="#201F2C" fill-opacity="0.03" stroke="#787878" stroke-width="1.5"/>
+      <text x="140" y="158" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="32" style="font-size:32px" font-weight="700" fill="#201F2C">User Applications</text>
+      <rect x="710" y="112" width="420" height="66" rx="33" fill="#5EC4F7"/>
+      <text x="920" y="154" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#201F2C">Business Applications</text>
+      <rect x="1230" y="112" width="420" height="66" rx="33" fill="#A653FF"/>
+      <text x="1440" y="154" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif"
+            font-size="27" style="font-size:27px" font-weight="700" fill="#F5F5F5">Science Projects</text>
+    </g>
+  </svg>
