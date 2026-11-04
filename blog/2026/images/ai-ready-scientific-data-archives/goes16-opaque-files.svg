@@ -1,0 +1,32 @@
+<svg width="540" height="432" viewBox="448 175 540 432" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Six GOES-16 files, one per timestep, shown as opaque black boxes labelled only with their filenames">
+<polygon points="459,265 571,185 571,465 459,545" fill="#14131C" stroke="#A653FF" stroke-width="1.5" stroke-linejoin="round"/>
+<text transform="translate(515 379) skewY(-35.538)" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif" font-size="40" style="font-size:40px" font-weight="900" fill="#787878">?</text>
+<polygon points="541,265 653,185 653,465 541,545" fill="#14131C" stroke="#A653FF" stroke-width="1.5" stroke-linejoin="round"/>
+<text transform="translate(597 379) skewY(-35.538)" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif" font-size="40" style="font-size:40px" font-weight="900" fill="#787878">?</text>
+<polygon points="623,265 735,185 735,465 623,545" fill="#14131C" stroke="#A653FF" stroke-width="1.5" stroke-linejoin="round"/>
+<text transform="translate(679 379) skewY(-35.538)" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif" font-size="40" style="font-size:40px" font-weight="900" fill="#787878">?</text>
+<polygon points="705,265 817,185 817,465 705,545" fill="#14131C" stroke="#A653FF" stroke-width="1.5" stroke-linejoin="round"/>
+<text transform="translate(761 379) skewY(-35.538)" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif" font-size="40" style="font-size:40px" font-weight="900" fill="#787878">?</text>
+<polygon points="787,265 899,185 899,465 787,545" fill="#14131C" stroke="#A653FF" stroke-width="1.5" stroke-linejoin="round"/>
+<text transform="translate(843 379) skewY(-35.538)" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif" font-size="40" style="font-size:40px" font-weight="900" fill="#787878">?</text>
+<polygon points="869,265 981,185 981,465 869,545" fill="#14131C" stroke="#A653FF" stroke-width="1.5" stroke-linejoin="round"/>
+<text transform="translate(925 379) skewY(-35.538)" text-anchor="middle" font-family="ABC Diatype Rounded, Nunito, Helvetica Neue, sans-serif" font-size="40" style="font-size:40px" font-weight="900" fill="#787878">?</text>
+<line x1="515.00" y1="508" x2="515.00" y2="556" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="0.8"/>
+<path d="M506.004 560 H518.004 L524.004 566 V582 H506.004 Z" fill="#A653FF" fill-opacity="0.10" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/><path d="M518.004 560 V566 H524.004" fill="none" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="515.00" y="597.00" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="9.5" font-weight="400" fill="#4a4a57">15:15Z.nc</text>
+<line x1="597.00" y1="508" x2="597.00" y2="556" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="0.8"/>
+<path d="M588.004 560 H600.004 L606.004 566 V582 H588.004 Z" fill="#A653FF" fill-opacity="0.10" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/><path d="M600.004 560 V566 H606.004" fill="none" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="597.00" y="597.00" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="9.5" font-weight="400" fill="#4a4a57">15:25Z.nc</text>
+<line x1="679.00" y1="508" x2="679.00" y2="556" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="0.8"/>
+<path d="M670.004 560 H682.004 L688.004 566 V582 H670.004 Z" fill="#A653FF" fill-opacity="0.10" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/><path d="M682.004 560 V566 H688.004" fill="none" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="679.00" y="597.00" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="9.5" font-weight="400" fill="#4a4a57">15:35Z.nc</text>
+<line x1="761.00" y1="508" x2="761.00" y2="556" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="0.8"/>
+<path d="M752.004 560 H764.004 L770.004 566 V582 H752.004 Z" fill="#A653FF" fill-opacity="0.10" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/><path d="M764.004 560 V566 H770.004" fill="none" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="761.00" y="597.00" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="9.5" font-weight="400" fill="#4a4a57">15:45Z.nc</text>
+<line x1="843.00" y1="508" x2="843.00" y2="556" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="0.8"/>
+<path d="M834.004 560 H846.004 L852.004 566 V582 H834.004 Z" fill="#A653FF" fill-opacity="0.10" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/><path d="M846.004 560 V566 H852.004" fill="none" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="843.00" y="597.00" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="9.5" font-weight="400" fill="#4a4a57">15:55Z.nc</text>
+<line x1="925.00" y1="508" x2="925.00" y2="556" stroke="#787878" stroke-width="1" stroke-dasharray="3 3" stroke-opacity="0.8"/>
+<path d="M916.004 560 H928.004 L934.004 566 V582 H916.004 Z" fill="#A653FF" fill-opacity="0.10" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/><path d="M928.004 560 V566 H934.004" fill="none" stroke="#A653FF" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="925.00" y="597.00" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="9.5" font-weight="400" fill="#4a4a57">16:05Z.nc</text>
+</svg>

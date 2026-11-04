@@ -2,7 +2,7 @@
 
 I'm a physicist turned open-source software engineer. I work on projects that make it easier to analyse and share massive scientific datasets. 
 
-I strongly feel that progress in most fields of computational science is bottlenecked by how uneccessarily hard that is right now. There are [crucial missing pieces](./blog/2025/science-needs-a-social-network.md) of global scientific infrastructure.
+I strongly feel that progress in most fields of computational science is bottlenecked by how uneccessarily hard that is right now. There are [crucial missing pieces](./blog/2025/science-needs-a-social-network.md) of global scientific infrastructure. [AI has not changed this assessment](./blog/2026/ai-ready-scientific-data-archives.md).
 
 Climate science, meteorology, and all downstream impact analyses are similarly hamstrung, and I hope my work contributes in some small way to addressing the global climate crisis by helping enable them.
 
