@@ -17,7 +17,7 @@ site:
 |---|
 |💼 Engineer @ [Earthmover](https://earthmover.io/) |
 |🌎 Active member of the [Pangeo Community](https://pangeo.io/) |
-|🌕 Core developer of [Xarray](https://xarray.dev) |
+|🌕 Core developer of [Xarray](https://xarray.dev) & the [Zarr Format](https://zarr.dev/) |
 |🧪 PhD in fusion plasma physics from [Uni. York](https://fusion-cdt.ac.uk/) & [CCFE](https://ccfe.ukaea.uk/) |
 :::
 
