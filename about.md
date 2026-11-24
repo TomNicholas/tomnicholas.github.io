@@ -4,7 +4,7 @@ I'm a physicist turned open-source software engineer. I work on projects that ma
 
 I strongly feel that progress in most fields of computational science is bottlenecked by how uneccessarily hard that is right now. There are [crucial missing pieces](./blog/2025/science-needs-a-social-network.md) of global scientific infrastructure. [AI has not changed this assessment](./blog/2026/ai-ready-scientific-data-archives.md).
 
-Climate science, meteorology, and all downstream impact analyses are similarly hamstrung, and I hope my work contributes in some small way to addressing the global climate crisis by helping enable them.
+Climate science, meteorology, and all downstream impact analyses are similarly hamstrung, and I hope my work contributes in some small way to addressing the global climate crisis by helping enable them. The same goes for life science research also.
 
 ## What I do
 
@@ -16,12 +16,15 @@ Climate science, meteorology, and all downstream impact analyses are similarly h
 ```{div}
 :class: col-body-right
 
-I contribute to a number of open-source software projects that support this aim, often as part of the [Pangeo Community](https://pangeo.io/).
+I contribute to a number of open-source software projects that support this aim, often as part of the [Pangeo Community](https://pangeo.io/), or via my work at [Earthmover](https://www.earthmover.io/).
 
 A few projects I'm particularly proud of or excited about, and my role in them:
 
 - [Xarray](https://xarray.dev/) - N-D labeled arrays and datasets in Python (core maintainer).
 - [VirtualiZarr](https://github.com/zarr-developers/VirtualiZarr) - Cloud-Optimizes your Scientific Data as Virtual Zarr stores, using Xarray syntax (original author and lead developer).
+- [Icechunk](https://github.com/earth-mover/icechunk) (maintainer).
+- [Zarr](https://zarr.dev/) (I represent both VirtualiZarr and Icechunk on the Zarr Format Working Group, the body that votes on changes to the Zarr Specification).
+- [ArrayLake](https://docs.earthmover.io/) (maintainer as part of the Earthmover team).
 - [Cubed](https://cubed-dev.github.io/cubed/) - Scalable array processing with bounded memory (cheerleader, and author of the [Cubed-Xarray integration](https://cubed-dev.github.io/cubed/examples/xarray.html)).
 - [FROST](https://github.com/TomNicholas/FROST) - Federated registry of all scientific datasets (originator - I'm trying to make this a thing).
 
