@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="http://pre.render/sitemap_style.xsl" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:3000</loc>
+    <loc>http://pre.render</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/about</loc>
+    <loc>http://pre.render/about</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/talks</loc>
+    <loc>http://pre.render/talks</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/slides</loc>
+    <loc>http://pre.render/slides</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog</loc>
+    <loc>http://pre.render/blog</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2026/ai-ready-scientific-data-archives</loc>
+    <loc>http://pre.render/blog/2026/ai-ready-scientific-data-archives</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2026/secure-virtual-chunks</loc>
+    <loc>http://pre.render/blog/2026/secure-virtual-chunks</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2026/virtual-grib-nbm</loc>
+    <loc>http://pre.render/blog/2026/virtual-grib-nbm</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2026/virtual-zarr</loc>
+    <loc>http://pre.render/blog/2026/virtual-zarr</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2025/cloud-optimized-scientific-data</loc>
+    <loc>http://pre.render/blog/2025/cloud-optimized-scientific-data</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2025/science-needs-a-social-network</loc>
+    <loc>http://pre.render/blog/2025/science-needs-a-social-network</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2024/datatree</loc>
+    <loc>http://pre.render/blog/2024/datatree</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2023/cubed-xarray</loc>
+    <loc>http://pre.render/blog/2023/cubed-xarray</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2023/dask-distributed</loc>
+    <loc>http://pre.render/blog/2023/dask-distributed</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2022/easy-ipcc-datatree</loc>
+    <loc>http://pre.render/blog/2022/easy-ipcc-datatree</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2022/pint-xarray</loc>
+    <loc>http://pre.render/blog/2022/pint-xarray</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2021/pan-plasma</loc>
+    <loc>http://pre.render/blog/2021/pan-plasma</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2020/covid19-model</loc>
+    <loc>http://pre.render/blog/2020/covid19-model</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2020/deep-pseudoscience</loc>
+    <loc>http://pre.render/blog/2020/deep-pseudoscience</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2020/oxford-divests</loc>
+    <loc>http://pre.render/blog/2020/oxford-divests</loc>
   </url>
   <url>
-    <loc>http://localhost:3000/blog/2019/theconversation-fusion</loc>
+    <loc>http://pre.render/blog/2019/theconversation-fusion</loc>
   </url>
 </urlset>
